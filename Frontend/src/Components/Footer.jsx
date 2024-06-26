@@ -34,7 +34,7 @@ export default function Footer() {
                 <MDBContainer className='text-center text-md-start mt-4'>
                     <MDBRow className='mt-3'>
 
-                        <MDBCol md="3" lg="3" xl="4" className='mb-4'>
+                        <MDBCol md="4" lg="3" xl="4" className='mb-4'>
                             <motion.img
                                 className="logo-default"
                                 src="https://www.mcagulf.com/wp-content/uploads/2024/05/MCA-New-Logo-252px.png"
@@ -63,100 +63,60 @@ export default function Footer() {
 
                         <MDBCol md="4" lg="4" xl="4" className='mb-4'>
                             <div>
-                                {/* <h4 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Contact</h4>
+                                <h5 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Contact</h5>
                                 <p style={{ color: "#212529", fontWeight: 500 }}>
                                     <FontAwesomeIcon icon={faPhone} className='me-2' />
                                     Monday-Friday <br />9:00am - 6:00pm <br />
                                     +971 4 3319501
-                                </p> */}
-
-                                <h4 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Locations</h4> <br/>  <br/>
-                                <h6 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Dubai</h6>
-                                <p style={{ color: "#212529", fontWeight: 500 }}>
-                                    <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
-                                    404, 4th Floor, (Head Office) <br />
-                                    Business Cluster, Building 2,<br />
-                                    Dubai CommerCity, Dubai, UAE.
-                                    <br />
-                                    T + 971 4 331 9501
-                                    <br />
-                                    F + 971 4 331 9502
-
                                 </p>
-                                
-                                <h6 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Abu Dhabi</h6>
-                                <p style={{ color: "#212529", fontWeight: 500 }}>
-                                    <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
-                                    801- Al AIN Insurance Building, <br />
-                                    Hamdan Street, Abu Dhabi, UAE <br />
-                                    PO Box - 33855
-                                    <br />
-                                    T+ 971 2 445 0050
-                                    <br />
-                                    F + 971 2 445 0075
 
-                                </p>
-                                <h6 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Abu Dhabi</h6>
+                                <h5 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Locations</h5>
                                 <p style={{ color: "#212529", fontWeight: 500 }}>
                                     <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
-                                    B08 - Al Sarab Tower, ADGM, Al <br />
-                                    Maryah Island, Abu Dhabi, UAE.
+                                    Dubai, UAE (Head Office) <br />
+                                    MCA Management Consultants <br />
+                                    404 -10, Business Cluster Bldg 2 <br />
+                                    Dubai CommerCity, Ummramool
                                 </p>
-                                <h6 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Sharjah</h6>
+
                                 <p style={{ color: "#212529", fontWeight: 500 }}>
                                     <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
-                                    SAIF Office: P8-10-14 <br />
-                                    PO Box 121026, Sharjah, UAE.
+                                    801 Al Ain Insurance Building <br />
+                                    Hamdan Street, PO Box 33855 <br />
+                                    Abu Dhabi UAE
                                 </p>
                             </div>
                         </MDBCol>
 
                         <MDBCol md="4" lg="4" xl="4" className='mb-4'>
                             <div>
-                                <h4 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Global Offices</h4> <br />  <br/>
-                                <h6 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Oman</h6>
+                                <h5 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Global Offices</h5>
                                 <p style={{ color: "#212529", fontWeight: 500 }}>
                                     <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
-                                    Office no 208, Hatat House Complex A<br />
-                                    Wadi Adai, Governate of Muscat, <br />
-                                    PO Box 233, Oman<br />
-                                    T +968 2457 1401 
-                                    <br />
-                                    M +968 9176 9455
-
+                                    Mohamed Habib Certified Accountants <br />
+                                    208, Hatat House Complex A <br />
+                                    Wadi Adai, Muscat, Oman
                                 </p>
 
                                 <p style={{ color: "#212529", fontWeight: 500 }}>
-                                <h6 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Bahrain</h6><br />
                                     <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
-                                    Suite no 606, 6th Floor Venture <br />
-                                    Capital Bank Bldg247, Diplomat  <br />
-                                    AreaP.B.11409, Manama, Bahrain. <br />
-                                    T +973 17 518 777
-                                    <br />
-                                    M +973 38 294537
-
-
+                                    MCA Pyramid Consulting WLL <br />
+                                    606, Venture Capital Bank Bldg 247 <br />
+                                    Diplomat Area, Bahrain
                                 </p>
 
                                 <p style={{ color: "#212529", fontWeight: 500 }}>
-                                <h6 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Qatar</h6><br />
                                     <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
-                                    Regus Doha D-Ring, <br />
-                                    1st Floor Regus Building, D-Ring<br />
-                                    Road, PO Box 32522, Doha, Qatar<br/>
-                                    T +974 55 295 733 
+                                    Arafat Business Center, Barwa Towers <br />
+                                    C- Ring Road, Al Sadd, Tower 2 <br />
+                                    PO Box 31928, Doha, Qatar
                                 </p>
 
                                 <p style={{ color: "#212529", fontWeight: 500 }}>
-                                <h6 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Saudi Arabia</h6><br />
                                     <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
-                                    Unit 27, 3rd Floor, Yusuf Bin Ahmed <br /> Kanoo Building No.2, 6767 Al Madinah <br />
-                                    Al Munawarah Rd, Al Faisaliyyah Dist,  <br />
-                                    Al Faisaliyyah Dist, Jeddah, KSA 23441<br/>
-                                    Kingdom of Saudi Arabia.<br/>
-                                    T+ 966 55 948 3774
-
+                                    27, Yusuf Bin Ahmed Kanoo Building 2 <br />
+                                    6767 Al Madinah Al Munawarah Rd <br />
+                                    Al Faisaliyyah Dist, Jeddah, KSA 23441
                                 </p>
                             </div>
                         </MDBCol>

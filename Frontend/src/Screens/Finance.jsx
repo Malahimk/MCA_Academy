@@ -83,8 +83,8 @@ const Finance = () => {
     const circles = [...Array(7)].map((_, i) => {
         const angle = (i / 7) * 2 * Math.PI;
         const radius = 120;
-        const x = 50 + (radius * Math.cos(angle)) / 70 * 50;
-        const y = 50 + (radius * Math.sin(angle)) / 70 * 50;
+        const x = 50 + (radius * Math.cos(angle)) / 70 * 45;
+        const y = 50 + (radius * Math.sin(angle)) / 70 * 45;
         return { x, y };
     });
 
@@ -93,16 +93,16 @@ const Finance = () => {
             <Navbar />
             <Container>
                 <Row className="mt-5 bg-light py-4 rounded">
-                    <Col xs={12} md={6} className="mb-4 mb-md-0 pr-md-4">
+                    <Col xs={12} md={12} lg={6} xl={6} className="mb-4 mb-md-0 pr-md-4">
                         <AnimatedColumn delay={0.3} direction="right">
-                            <div className="py-5 text-center position-relative circle-container">
-                                <div className="central-circle">Finance <br /> Programs</div>
-                                <div className="surrounding-circles">
+                            <div className="py-5 text-center position-relative circle-container2">
+                                <div className="central-circle2">Finance <br /> Programs</div>
+                                <div className="surrounding-circles2">
                                     {circles.map((circle, i) => (
                                         <div
                                             key={i}
                                             to={`/${generateURL(finance[i])}`}
-                                            className='surrounding-circle'
+                                            className='surrounding-circle2'
                                             style={{
                                                 top: `${circle.y}%`,
                                                 left: `${circle.x}%`,
@@ -127,12 +127,12 @@ const Finance = () => {
                             </div>
                         </AnimatedColumn>
                     </Col>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={12} lg={6} xl={6} >
                         <motion.div initial="hidden" animate="show" variants={reveal("right", 0.3)}>
                             <div className="py-5">
-                                <h2 className="text-left mb-4 mission-heading" style={{ color: "#CE0932", fontWeight: 700 }}>Finance Programs</h2>
+                                <h2 className="text-left mb-4 mission-heading" style={{ color: "#CE0932", fontWeight: 700 }}>Finance Program</h2>
                                 <p style={{ color: "#212529", fontWeight: 600, textAlign: "justify" }} className="text-justify">
-                                    Finance Programs offers a variety of programs tailored to elevate financial professionals' expertise and foster organizational prosperity. Our curriculum centers on cultivating strategic financial partnerships, leveraging data for informed decision-making, and nurturing the next generation of financial professionals.
+                                    Finance Program offers a variety of programs tailored to elevate financial professionals' expertise and foster organizational prosperity. Our curriculum centers on cultivating strategic financial partnerships, leveraging data for informed decision-making, and nurturing the next generation of financial professionals.
                                 </p>
                             </div>
                         </motion.div>

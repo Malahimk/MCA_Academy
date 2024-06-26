@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 import Button from 'react-bootstrap/Button';
 import { useInView } from 'react-intersection-observer';
 
+
 const PillarCard = ({ data }) => {
     const handleLinkClick2 = (event) => {
         event.preventDefault();
@@ -44,7 +45,7 @@ const PillarCard = ({ data }) => {
                                 transition={{ duration: 0.2, delay: index * 0.2 }}
                             >
                                 <InViewWrapper>
-                                    <Card className="card pillarCard center-card pillarCardHeight">
+                                    <Card className="card pillarCard center-card pillarCardHeight h-100">
                                         <Card.Img
                                             variant="top"
                                             style={{ width: "40%", height: "30%", margin: "auto", padding: "20px 0" }}
