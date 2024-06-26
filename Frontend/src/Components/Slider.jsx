@@ -54,13 +54,15 @@ const Slider = ({ deviceType, data }) => {
                             <div className="image-overlay"></div>
                             <Card.Img variant="left" src={academyItem.image} style={{ width: "40%" }} className="card-image-horizontal" />
                             <Card.Body className="card-body-horizontal">
-                                <Card.Title style={{ textAlign: "center", color: "#CE0932",fontSize:"25px" }} className="card-title">{academyItem.name}</Card.Title>
+                                <Card.Title style={{ textAlign: "center", color: "#CE0932", fontSize: "25px" }} className="card-title">{academyItem.name}</Card.Title>
                                 <Card.Text style={{ textAlign: "center", color: '#212529', fontSize: "18px" }} className="card-text">
                                     Learn more about {academyItem.name} and enhance your skills with our specialized programs.
                                 </Card.Text>
-                                <Link to={`/${academyItem.name.replace(/\s+/g, '')}`} onClick={handleLinkClick}>
-                                    <button type="button" className="learnMore mx-2">Learn More</button>
-                                </Link>
+                                <div style={{ textAlign: "center" }}>
+                                    <Link to={`/${academyItem.name.replace(/\s+/g, '')}} onClick={handleLinkClick`}>
+                                        <button type="button" className="learnMore mx-2">Learn More</button>
+                                    </Link>
+                                </div>
                             </Card.Body>
                         </Card>
                     </div>
