@@ -13,7 +13,7 @@ import EmpoweringWomenLeadersForSuccess from './Screens/EmpoweringWomenLeadersFo
 import Fostering from './Screens/Fostering';
 import Coaching from './Screens/Coaching';
 import ContactUs from './Screens/ContactUs';
-
+import { useEffect } from 'react';
 // import FinancialReporting from './Screens/FinancialReporting';
 // import GrowthProgram from './Screens/GrowthProgram';
 // import Budgeting from './Screens/Budgeting';
@@ -40,6 +40,11 @@ import Executive from './Screens/Executive';
 
 
 function App() {
+
+  useEffect(() => {
+    document.body.style.zoom = '90%';
+  }, []);
+
   return (
     <Router>
       <Routes>

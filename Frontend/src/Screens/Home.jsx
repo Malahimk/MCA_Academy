@@ -128,7 +128,7 @@ const Home = () => {
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat',
-              width: '100vw',
+              width: '110vw',
               margin: 0
             }}>
               <div style={{
