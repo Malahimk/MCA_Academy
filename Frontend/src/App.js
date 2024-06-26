@@ -71,11 +71,11 @@ function App() {
         <Route exact path='/credit-risk-analysis-modelling' element={<Credit />} /> */}
 
         {/* Women Pillar */}
-        <Route exact path='/UnloackingMyProfessionalPresence' element={<Unlocking />} />
+        <Route exact path='/UnlockingMyProfessionalPresence' element={<Unlocking />} />
         <Route exact path='/HarmonyEmpoweringforbalance' element={<Harmony />} />
 
         {/* Skills Pillar */}
-        <Route exact path='/StratergyandTransformation' element={<Stratergy />} />
+        <Route exact path='/StrategyandTransformation' element={<Stratergy />} />
         <Route exact path='/GlobalLeadershipandCrisisManagement' element={<Global />} />
         <Route exact path='/LeadingaBusinessinaVUCAWorld' element={<Leading />} />
 

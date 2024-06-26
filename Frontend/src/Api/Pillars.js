@@ -10,7 +10,7 @@ const pillars = [
     },  
     {
         title: 'Entrepreneurial Excellence -  Skills and mindset',
-        content1: "Stratergy and Transformation",
+        content1: "Strategy and Transformation",
         content2: "Global Leadership and Crisis Management",
         content3: "Leading a Business in a VUCA World",
         image: "/images/skills.png",
@@ -18,7 +18,7 @@ const pillars = [
     },
     {
         title: 'Empowering Women Leaders For Success',
-        content1: "Unloacking 'My' Professional Presence",
+        content1: "Unlocking 'My' Professional Presence",
         content2: "Harmony-Empowering for balance",
         image: "/images/worker.png",
         color: "#CE0932"
