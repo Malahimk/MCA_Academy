@@ -4,15 +4,14 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
 import Button from 'react-bootstrap/Button';
+import { useInView } from 'react-intersection-observer';
 
 const PillarCard = ({ data }) => {
-
     const handleLinkClick2 = (event) => {
         event.preventDefault();
         const content = event.target.innerText;
-        const url = `/${content.replace(/\s+/g, '').replace(/[^\w\s]/gi, '')}`;
+        const url = `/${content.replace(/\s+/g, '').replace(/[^\w\s]/gi, '')}`;
         window.location.href = url;
         window.scrollTo(0, 0);
     };
@@ -45,7 +44,7 @@ const PillarCard = ({ data }) => {
                                 transition={{ duration: 0.2, delay: index * 0.2 }}
                             >
                                 <InViewWrapper>
-                                    <Card className="card pillarCard center-card" style={{ width: '20rem', borderRadius: '15px', overflow: 'hidden', height: "80vh" }}>
+                                    <Card className="card pillarCard center-card" style={{ width: '20rem', borderRadius: '15px', overflow: 'hidden', minHeight: "80vh" }}>
                                         <Card.Img
                                             variant="top"
                                             style={{ width: "40%", height: "30%", margin: "auto", padding: "20px 0" }}
@@ -102,4 +101,4 @@ const InViewWrapper = ({ children }) => {
     return <motion.div ref={ref}>{inView && children}</motion.div>;
 };
 
-export default PillarCard;
+export default PillarCard;
