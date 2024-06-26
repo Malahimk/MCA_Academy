@@ -282,8 +282,8 @@ const Home = () => {
     });
 
     const partners = [
-      { imgSrc: '/images/nvox2.png', text: 'Enhance leadership skills to meet business results by leveraging AI technology', link: 'https://nworx.ai/' },
-      { imgSrc: '/images/pdeu.png', text: 'To build intellectual capital and human resources in the fast-developing and competitive energy industry', link: 'https://www.pdpu.ac.in/' },
+      { imgSrc: '/images/nvox2.PNG', text: 'Enhance leadership skills to meet business results by leveraging AI technology', link: 'https://nworx.ai/' },
+      { imgSrc: '/images/pdeu.PNG', text: 'To build intellectual capital and human resources in the fast-developing and competitive energy industry', link: 'https://www.pdpu.ac.in/' },
     ];
 
     return (
