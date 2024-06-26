@@ -123,7 +123,7 @@ const Home = () => {
               textAlign: 'center',
               padding: '50px',
               position: 'relative',
-              height: "100vh",
+              height: "115vh",
               backgroundImage: 'url(/images/bst.jpg)',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
@@ -222,7 +222,7 @@ const Home = () => {
                     left: '50%',
                     transform: 'translateX(-50%)',
                     zIndex: 1,
-                    top: 'calc(100% - -360px)',
+                    top: 'calc(100% - -280px)',
                   }}
                 >
                   <div>

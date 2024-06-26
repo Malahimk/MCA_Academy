@@ -44,7 +44,7 @@ const PillarCard = ({ data }) => {
                                 transition={{ duration: 0.2, delay: index * 0.2 }}
                             >
                                 <InViewWrapper>
-                                    <Card className="card pillarCard center-card" style={{ width: '20rem', borderRadius: '15px', overflow: 'hidden', minHeight: "80vh" }}>
+                                    <Card className="card pillarCard center-card" style={{ width: '20rem', borderRadius: '15px', overflow: 'hidden', minHeight: "90vh" }}>
                                         <Card.Img
                                             variant="top"
                                             style={{ width: "40%", height: "30%", margin: "auto", padding: "20px 0" }}
