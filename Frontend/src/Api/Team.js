@@ -38,7 +38,7 @@ const team = [
         name: "Anil Seth",
         desc: "Founder - Valult Consulting",
         desc2: "25+ years in Learning and Training across continents, Executive Coach, change leader",
-        image: "images/Gl.png",
+        image: "images/gl.png",
         link: "https://www.linkedin.com/in/anil-seth/?originalSubdomain=ae"
     },
     
