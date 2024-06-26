@@ -58,11 +58,9 @@ const Slider = ({ deviceType, data }) => {
                                 <Card.Text style={{ textAlign: "center", color: '#212529', fontSize: "18px" }} className="card-text">
                                     Learn more about {academyItem.name} and enhance your skills with our specialized programs.
                                 </Card.Text>
-                                <div style={{ textAlign: "center" }}>
-                                    <Link to={`/${academyItem.name.replace(/\s+/g, '')}} onClick={handleLinkClick`}>
-                                        <button type="button" className="learnMore mx-2">Learn More</button>
-                                    </Link>
-                                </div>
+                                <Link to={`/${academyItem.name.replace(/\s+/g, '')}} onClick={handleLinkClick`}>
+                                    <button type="button" className="learnMore mx-2">Learn More</button>
+                                </Link>
                             </Card.Body>
                         </Card>
                     </div>
