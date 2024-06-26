@@ -3,7 +3,7 @@ const team = [
         name: "S. Sundarrajan",
         desc: "Director at Institute of Cost and Management Accountants, Oman",
         desc2: "5 decades of Consulting, Advisory, and Training with more than 100 programs in the Gulf region.",
-        image: "images/sun.jpg",
+        image: "images/sungoku.jpg",
         link: "https://www.linkedin.com/in/sundararajan-selvaganapathy-00283215/"           
         
     
