@@ -904,3 +904,152 @@ h1 {
   margin-top: 10px;
   flex-grow: 1;
 }
+
+
+
+.crousalText {
+  margin-top: 20px;
+  color: white;
+  text-align: left;
+  font-size: 45px;
+  margin-left: 0;
+  text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.9);
+}
+
+.crousalBox {
+  margin-bottom: 110px;
+  color: white;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.9);
+  margin-right: 80px;
+  margin-left: -30px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Media query for screens between 0px and 320px (very small screens, e.g., watches) */
+@media (min-width: 0px) and (max-width: 320px) {
+  .crousalText {
+    font-size: 20px;
+    text-align: center; /* Example adjustment for very small screens */
+  }
+}
+
+/* Media query for screens between 321px and 576px (very small screens) */
+@media (min-width: 321px) and (max-width: 576px) {
+  .crousalText {
+    font-size: 25px;
+    text-align: center; /* Further adjust font size for even smaller screens */
+  }
+}
+
+/* Media query for screens between 577px and 768px (small devices) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .crousalText {
+    font-size: 35px; /* Adjust font size for smaller screens */
+  }
+}
+
+
+/* Media query for screens between 0px and 320px (very small screens, e.g., watches) */
+@media (min-width: 0px) and (max-width: 320px) {
+  .crousalBox {
+    margin-bottom: 40px; /* Example adjustment for very small screens */
+    padding: 5px; /* Example adjustment for very small screens */
+  }
+}
+
+/* Media query for screens between 321px and 576px (very small screens) */
+@media (min-width: 321px) and (max-width: 576px) {
+  .crousalBox {
+    margin-bottom: 60px; /* Further adjust margin for very small screens */
+    margin-right: 20px; /* Further adjust margin for very small screens */
+    margin-left: -10px; /* Further adjust margin for very small screens */
+    padding: 10px; /* Further adjust padding for very small screens */
+  }
+}
+
+/* Media query for screens between 577px and 768px (small devices) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .crousalBox {
+    margin-bottom: 80px; /* Adjust margin for smaller screens */
+    margin-right: 40px; /* Adjust margin for smaller screens */
+    margin-left: -20px; /* Adjust margin for smaller screens */
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .allCards {
+    padding-bottom: 50px;
+    /* Adjust margin for smaller screens */
+  }
+}
+
+.pillarCardHeight {
+  width: 20rem;
+  border-radius: 15px;
+  overflow: hidden;
+  min-height: 90vh;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+  .pillarCardHeight {
+    min-height: 40vh;
+    max-height: 80vh;
+  }
+}
+
+/* Medium devices (tablets, min-width: 576px and max-width: 768px) */
+@media (min-width: 576px) and (max-width: 768px) {
+  .pillarCardHeight {
+    min-height: 60vh;
+    max-height: 70vh;
+  }
+}
+
+/* Large devices (desktops, min-width: 768px and max-width: 992px) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .pillarCardHeight {
+    min-height: 70vh;
+    max-height: 80vh;
+  }
+}
+
+/* Extra large devices (large desktops, min-width: 992px and max-width: 1200px) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .pillarCardHeight {
+    min-height: 80vh;
+    max-height: 90vh;
+  }
+}
+
+
+
+
+@media (min-width: 0px) and (max-width: 576px) {
+  .mission-section2 {
+    display: none; /* Hide RedBarSection on mobiles and tablets */
+  }
+}
+
+/* Medium devices (tablets, min-width: 576px and max-width: 768px) */
+@media (min-width: 576px) and (max-width: 768px) {
+  .mission-section2 {
+    display: none; /* Hide RedBarSection on mobiles and tablets */
+  }
+}
+
+/* Large devices (desktops, min-width: 768px and max-width: 992px) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .mission-section2 {
+    display: none; /* Hide RedBarSection on mobiles and tablets */
+  }
+}
+
+/* Extra large devices (large desktops, min-width: 992px and max-width: 1200px) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .mission-section2 {
+    display: block; /* Hide RedBarSection on mobiles and tablets */
+  }
+}

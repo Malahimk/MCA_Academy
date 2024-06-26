@@ -458,7 +458,7 @@ const UnlockingAuthenticLeadership = () => {
                                     >
                                         <h4 className='mission-heading2'>Duration</h4>
                                         <p style={{ textAlign: "justify", padding: "10px", color: "#212529", fontWeight: 600 }}>
-                                            2-day program
+                                            3 - 6 months (As required)
                                         </p>
                                     </motion.div>
                                 </Col>

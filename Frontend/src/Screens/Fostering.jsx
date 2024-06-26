@@ -77,16 +77,16 @@ const Fostering = () => {
                                             <Card.Text>
                                                 <ul className='card-list'>
 
-                                                    <Link style={{ textDecoration: "none", color: "#212529" }} to={'/FinanceAcademy'}>
-                                                        <li style={{ cursor: "pointer", marginLeft: "15px", padding: "10px", marginTop: "10px", textIndent: '-25px' }}>Finance Academy</li>
+                                                    <Link style={{ textDecoration: "none", color: "#212529" }} to={'/FinancePrograms'}>
+                                                        <li style={{ cursor: "pointer", marginLeft: "15px", padding: "10px", marginTop: "10px", textIndent: '-25px' }}>Finance Programs</li>
                                                     </Link>
 
-                                                    <Link style={{ textDecoration: "none", color: "#212529" }} to={'/HRAcademy'}>
-                                                        <li style={{ cursor: "pointer", marginLeft: "15px", padding: "10px", marginTop: "10px", textIndent: '-25px' }}>HR Academy</li>
+                                                    <Link style={{ textDecoration: "none", color: "#212529" }} to={'/HRPrograms'}>
+                                                        <li style={{ cursor: "pointer", marginLeft: "15px", padding: "10px", marginTop: "10px", textIndent: '-25px' }}>HR Programs</li>
                                                     </Link>
 
-                                                    <Link style={{ textDecoration: "none", color: "#212529" }} to={'/SupplyChainAcademy'}>
-                                                        <li style={{ cursor: "pointer", marginLeft: "15px", padding: "10px", marginTop: "10px", textIndent: '-25px' }}>Supply Chain Academy</li>
+                                                    <Link style={{ textDecoration: "none", color: "#212529" }} to={'/SupplyChainPrograms'}>
+                                                        <li style={{ cursor: "pointer", marginLeft: "15px", padding: "10px", marginTop: "10px", textIndent: '-25px' }}>Supply Chain Programs</li>
                                                     </Link>
 
                                                 </ul>
