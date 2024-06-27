@@ -234,13 +234,18 @@ const Home = () => {
   // };
 
   const RedBarSection = () => {
+    const scrollToSection = (sectionId) => {
+      const section = document.getElementById(sectionId);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    };
     return (
       <div className='mission-section2 text-center' style={{ width: '100%', overflow: "hidden", padding: "0px", margin: "0px" }}>
-         <img src="/images/sun5.png" alt="" style={{ width: '100%' }} />
+        <img src="/images/sun6.png" alt="" style={{ width: '100%' }} onClick={() => scrollToSection('pillars2')} />
       </div>
     );
   };
-
   const PillarSection = () => {
     const { ref, inView } = useInView({
       triggerOnce: true,
