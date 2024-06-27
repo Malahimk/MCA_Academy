@@ -111,7 +111,7 @@ const HRAcademy = () => {
                                         justifyContent: 'center',
                                     }}
                                 >
-                                    HR Academy Programs
+                                    HR Programs
                                 </div>
                                 <div className="surrounding-circles mt-5">
                                     {HR.map((program, index) => (
@@ -144,9 +144,9 @@ const HRAcademy = () => {
                     <Col xs={12} md={6}>
                         <motion.div initial="hidden" animate="show" variants={reveal("right", 0.3)}>
                             <div className="py-5">
-                                <h2 className="text-left mb-4 mission-heading" style={{ color: "#CE0932", fontWeight: 700 }}>HR Program</h2>
+                                <h2 className="text-left mb-4 mission-heading" style={{ color: "#CE0932", fontWeight: 700 }}>HR Programs</h2>
                                 <p style={{ color: "#212529", fontWeight: 600, textAlign: "justify" }} className="text-justify">
-                                    HR Program offers a range of programs designed to enhance HR professionals' skills and drive organizational success. Our programs focus on strategic partnership development, data-driven decision-making, and grooming future HR leaders.
+                                    We offer a range of programs designed to enhance HR professionals' skills and drive organizational success. Our programs focus on strategic partnership development, data-driven decision-making, and grooming future HR leaders.
                                 </p>
                             </div>
                         </motion.div>

@@ -13,13 +13,13 @@ const academy = [
     //     image:"/images/pexels-shvets-production-7203724.jpg"
     // },
      {
-         name: "Supply Chain Programs", 
-         image:"/images/office-1574717_1280.jpg"
+          name: "Supply Chain Programs", 
+        image:"/images/office-1574717_1280.jpg"
      },
-    {
-        name: "Coaching and Mentoring",
-        image:"/images/coach.jpg"
-    },
+    // {
+    //     name: "Coaching and Mentoring",
+    //     image:"/images/coach.jpg"
+    // },
 
 ]
 

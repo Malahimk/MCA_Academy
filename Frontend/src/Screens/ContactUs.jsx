@@ -92,9 +92,9 @@ const ContactUs = () => {
                         >
                             <div className="subscription-box">
                                 <div className="left">
-                                    <h1>Contact Us Now !!!</h1>
+                                    <h1>Contact Us Now</h1>
                                     <br />
-                                    <h5>Never miss an insight. We will mail you when new articles are published.</h5>
+                                    {/* <h5>Never miss an insight. We will mail you when new articles are published.</h5> */}
                                 </div>
                                 <div className="right">
                                     <Form onSubmit={handleSubmission}>

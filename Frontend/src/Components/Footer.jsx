@@ -63,61 +63,117 @@ export default function Footer() {
 
                         <MDBCol md="4" lg="4" xl="4" className='mb-4'>
                             <div>
-                                <h5 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Contact</h5>
+                                {/* <h5 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Contact</h5>
                                 <p style={{ color: "#212529", fontWeight: 500 }}>
                                     <FontAwesomeIcon icon={faPhone} className='me-2' />
                                     Monday-Friday <br />9:00am - 6:00pm <br />
                                     +971 4 3319501
-                                </p>
+                                </p> */}
 
                                 <h5 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Locations</h5>
                                 <p style={{ color: "#212529", fontWeight: 500 }}>
-                                    <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
+                                <h6 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Dubai</h6> <br/>
+                                  <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
                                     Dubai, UAE (Head Office) <br />
                                     MCA Management Consultants <br />
                                     404 -10, Business Cluster Bldg 2 <br />
-                                    Dubai CommerCity, Ummramool
+                                    Dubai CommerCity, Ummramool <br/>
+                                    T + 971 4 331 9501 <br/> F + 971 4 331 9502
+
                                 </p>
 
+                                <h6 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Abu Dhabi</h6>
                                 <p style={{ color: "#212529", fontWeight: 500 }}>
+                                    <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
+                                    Abu Dhabi, UAE (Head Office) <br />
+                                    801- Al AIN Insurance Building,  <br />
+                                    Hamdan Street, Abu Dhabi, UAE <br />
+                                    T+ 971 2 445 0050 <br/>
+                                    F + 971 2 445 0075<br/>
+
+                                </p>
+                                <h6 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Abu Dhabi</h6>
+                                <p style={{ color: "#212529", fontWeight: 500 }}>
+                                    <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
+                                    Abu Dhabi Global Market <br />
+                                    B08 - Al Sarab Tower, ADGM, Al<br />
+                                    Maryah Island, Abu Dhabi, UAE.<br />
+                                   
+
+                                </p>
+
+                                <h6 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Sharjah</h6>
+                                <p style={{ color: "#212529", fontWeight: 500 }}>
+                                    <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
+                                    SAIF Office: P8-10-14
+                                    <br />
+                                    PO Box 121026, Sharjah, UAE.<br />
+                                   
+                                   
+
+                                </p>
+
+                                {/* <p style={{ color: "#212529", fontWeight: 500 }}>
                                     <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
                                     801 Al Ain Insurance Building <br />
                                     Hamdan Street, PO Box 33855 <br />
                                     Abu Dhabi UAE
-                                </p>
+                                </p> */}
                             </div>
                         </MDBCol>
 
                         <MDBCol md="4" lg="4" xl="4" className='mb-4'>
                             <div>
-                                <h5 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Global Offices</h5>
-                                <p style={{ color: "#212529", fontWeight: 500 }}>
-                                    <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
-                                    Mohamed Habib Certified Accountants <br />
-                                    208, Hatat House Complex A <br />
-                                    Wadi Adai, Muscat, Oman
-                                </p>
+                                <h5 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Global Offices</h5><br/>
+                                <h6 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Saudi Arabia</h6>
 
                                 <p style={{ color: "#212529", fontWeight: 500 }}>
                                     <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
-                                    MCA Pyramid Consulting WLL <br />
-                                    606, Venture Capital Bank Bldg 247 <br />
-                                    Diplomat Area, Bahrain
+                                    Unit 27, 3rd Floor, Yusuf Bin Ahmed <br />
+                                    Kanoo Building No.2,<br />
+                                    6767 Al Madinah Al Munawarah <br />
+                                    Rd, Al Faisaliyyah Dist, <br />
+                                    Jeddah 23441, <br />
+                                    Kingdom of Saudi Arabia <br />
+                                    T+ 966 55 948 3774
                                 </p>
 
                                 <p style={{ color: "#212529", fontWeight: 500 }}>
+                                <h6 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Bahrain</h6> <br/>
                                     <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
-                                    Arafat Business Center, Barwa Towers <br />
-                                    C- Ring Road, Al Sadd, Tower 2 <br />
-                                    PO Box 31928, Doha, Qatar
+                                    Suite no 606, 6th Floor Venture <br />
+                                    Capital Bank Bldg247, Diplomat <br />
+                                    AreaP.B.11409, Manama,  <br />
+                                    Bahrain.<br />
+                                    T +973 17 518 777
+                                    <br />
+                                    M +973 38 294537<br />
                                 </p>
 
                                 <p style={{ color: "#212529", fontWeight: 500 }}>
+                                <h6 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Oman</h6> <br/>
                                     <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
-                                    27, Yusuf Bin Ahmed Kanoo Building 2 <br />
-                                    6767 Al Madinah Al Munawarah Rd <br />
-                                    Al Faisaliyyah Dist, Jeddah, KSA 23441
+                                    Office no 208, Hatat House <br />
+                                    Complex A <br />
+                                    Wadi Adai, Governate of  <br />
+                                    Muscat, PO Box 233, Oman<br />
+                                    T +968 2457 1401 
+                                    <br />
+                                    M +968 9176 9455<br />
                                 </p>
+
+                                <p style={{ color: "#212529", fontWeight: 500 }}>
+                                <h6 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Qatar</h6> <br/>
+                                    <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
+                                    Regus Doha D-Ring, <br />
+                                    1st Floor Regus Building, D-Ring <br />
+                                    Road, PO Box 32522, <br />
+                                    Doha, Qatar<br />
+                                    T +974 55 295 733 
+                                </p>
+
+
+                               
                             </div>
                         </MDBCol>
                     </MDBRow>

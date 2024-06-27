@@ -111,11 +111,11 @@ const Fostering = () => {
                                     <div>
                                         
                                         <p className='mt-0.9' style={{ textAlign: "left" }}>
-                                            Under this pillar we have specific functional academies focusing on building in-depth knowledge, skills, and application
+                                            Under this pillar we have specific functional programs focusing on building in-depth knowledge, skills, and application
                                         </p>
 
                                         <p className='mt-0.9' style={{ textAlign: "left" }}>
-                                            The mission of our Functional Academies is to empower professionals with specialized knowledge, skills, and expertise in their respective fields. Through comprehensive training and development programs, we aim to enhance competency, efficiency, and effectiveness, enabling participants to excel in their roles and contribute to organizational success.
+                                            The mission of our Functional programs are to empower professionals with specialized knowledge, skills, and expertise in their respective fields. Through comprehensive training and development programs, we aim to enhance competency, efficiency, and effectiveness, enabling participants to excel in their roles and contribute to organizational success.
                                         </p>
 
                                     </div>

@@ -59,7 +59,7 @@ const SupplyChainAcademy = () => {
         <div>
             <Navbar />
             <Container>
-                <Row className="mt-5 bg-light py-4 rounded">
+                <Row className="mt-5 bg-light py-4 rounded justify-content-center">
                     <Col xs={12} md={6} className="d-flex align-items-center justify-content-center">
                         <motion.div initial="hidden" animate="show" variants={reveal("left", 0)}>
                             <div className="imageBox">
@@ -67,11 +67,11 @@ const SupplyChainAcademy = () => {
                             </div>
                         </motion.div>
                     </Col>
-                    <Col xs={12} md={6} className="py-5">
+                    <Col xs={12} md={6} className="py-5 d-flex flex-column align-items-center justify-content-center">
                         <motion.div initial="hidden" animate="show" variants={reveal("right", 0.3)}>
-                            <h2 className="text-left mb-4 mission-heading" style={{ color: "#CE0932", fontWeight: 700 }}>Supply Chain Program</h2>
-                            <p style={{ color: "#212529", fontWeight: 600, textAlign: "justify" }} className="text-justify">
-                                Supply Chain Program provides tailored programs for logistics professionals, emphasizing warehouse management, transportation, and stakeholder communication. Courses cover risk mitigation, technology integration, and leadership development aligned with organizational goals.
+                            <h2 className="text-center mb-4 mission-heading" style={{ color: "#CE0932", fontWeight: 700 }}>Under Development...</h2>
+                            <p style={{ color: "#212529", fontWeight: 600, textAlign: "center" }} className="text-center">
+                                {/* Supply Chain Program provides tailored programs for logistics professionals, emphasizing warehouse management, transportation, and stakeholder communication. Courses cover risk mitigation, technology integration, and leadership development aligned with organizational goals. */}
                             </p>
                         </motion.div>
                     </Col>
@@ -87,7 +87,7 @@ const SupplyChainAcademy = () => {
                                     variants={reveal("up", 0)}
                                     ref={ref}
                                 >
-                                    <h3 className='mission-heading' style={{ color: "#CE0932", fontWeight: 700 }}>Our Supply Chain Academy Programs</h3>
+                                    {/* <h3 className='mission-heading' style={{ color: "#CE0932", fontWeight: 700 }}>Our Supply Chain Academy Programs</h3> */}
                                 </motion.div>
                             )}
                         </InView>

@@ -29,13 +29,10 @@ function BasicExample() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto nav_ul align-items-center">
-                        {/* <motion.div variants={linkVariants} initial="hidden" animate="show">
-                            <RouterLink className="nav-link" to="/">Home</RouterLink>
-                        </motion.div> */}
                         <motion.div variants={linkVariants} initial="hidden" animate="show">
-                            <RouterLink className="nav-link" to="/about">Our Faculty</RouterLink>
+                            <RouterLink className="nav-link" to="/">Home</RouterLink>
                         </motion.div>
-                        {location.pathname === '/' && (
+                                                {location.pathname === '/' && (
                             <>
                                 <motion.div variants={linkVariants} initial="hidden" animate="show">
                                     <ScrollLink className="nav-link" to="missions" spy={true} smooth={true} offset={-100} duration={500}>
@@ -52,6 +49,10 @@ function BasicExample() {
                                         Our Partners
                                     </ScrollLink>
                                 </motion.div>
+                                <motion.div variants={linkVariants} initial="hidden" animate="show">
+                            <RouterLink className="nav-link" to="/about">Our Faculty</RouterLink>
+                        </motion.div>
+
                             </>
                         )}
                         <motion.div variants={linkVariants} initial="hidden" animate="show">

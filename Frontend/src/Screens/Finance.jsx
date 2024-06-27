@@ -130,9 +130,9 @@ const Finance = () => {
                     <Col xs={12} md={12} lg={6} xl={6} >
                         <motion.div initial="hidden" animate="show" variants={reveal("right", 0.3)}>
                             <div className="py-5">
-                                <h2 className="text-left mb-4 mission-heading" style={{ color: "#CE0932", fontWeight: 700 }}>Finance Program</h2>
+                                <h2 className="text-left mb-4 mission-heading" style={{ color: "#CE0932", fontWeight: 700 }}>Finance Programs</h2>
                                 <p style={{ color: "#212529", fontWeight: 600, textAlign: "justify" }} className="text-justify">
-                                    Finance Program offers a variety of programs tailored to elevate financial professionals' expertise and foster organizational prosperity. Our curriculum centers on cultivating strategic financial partnerships, leveraging data for informed decision-making, and nurturing the next generation of financial professionals.
+                                    We offer a variety of finance programs tailored to elevate financial professionals' expertise and foster organizational prosperity. Our curriculum centers on cultivating strategic financial partnerships, leveraging data for informed decision-making, and nurturing the next generation of financial professionals.
                                 </p>
                             </div>
                         </motion.div>

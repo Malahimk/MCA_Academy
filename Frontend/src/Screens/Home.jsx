@@ -236,7 +236,7 @@ const Home = () => {
   const RedBarSection = () => {
     return (
       <div className='mission-section2 text-center' style={{ width: '100%', overflow: "hidden", padding: "0px", margin: "0px" }}>
-         <img src="/images/sun4.png" alt="" style={{ width: '100%' }} />
+         <img src="/images/sun5.png" alt="" style={{ width: '100%' }} />
       </div>
     );
   };
