@@ -24,9 +24,9 @@ export default function Footer() {
                         <a href='https://www.linkedin.com/company/mcagulf/mycompany/' className='me-4 text-reset' style={{ fontSize: "40px" }}>
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a>
-                        <a href='https://www.instagram.com/' className='me-4 text-reset' style={{ fontSize: "40px" }}>
+                        {/* <a href='https://www.instagram.com/' className='me-4 text-reset' style={{ fontSize: "40px" }}>
                             <FontAwesomeIcon icon={faInstagram} />
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </section>

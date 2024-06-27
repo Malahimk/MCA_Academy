@@ -63,7 +63,7 @@ const SupplyChainAcademy = () => {
                     <Col xs={12} md={6} className="d-flex align-items-center justify-content-center">
                         <motion.div initial="hidden" animate="show" variants={reveal("left", 0)}>
                             <div className="imageBox">
-                                <img src="/images/supply.jpg" alt="" className="img-fluid" />
+                                <img src="/images/sup4.jpg" alt="" className="img-fluid" />
                             </div>
                         </motion.div>
                     </Col>
