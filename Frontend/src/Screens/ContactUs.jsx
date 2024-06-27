@@ -94,7 +94,7 @@ const ContactUs = () => {
                                 <div className="left">
                                     <h1>Contact Us Now</h1>
                                     <br />
-                                    {/* <h5>Never miss an insight. We will mail you when new articles are published.</h5> */}
+                                    <h5>Have a question or need more information? Please fill out the form below, and our team will get back to you shortly.</h5>
                                 </div>
                                 <div className="right">
                                     <Form onSubmit={handleSubmission}>
