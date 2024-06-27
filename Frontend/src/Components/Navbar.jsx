@@ -29,9 +29,9 @@ function BasicExample() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto nav_ul align-items-center">
-                        <motion.div variants={linkVariants} initial="hidden" animate="show">
+                        {/* <motion.div variants={linkVariants} initial="hidden" animate="show">
                             <RouterLink className="nav-link" to="/">Home</RouterLink>
-                        </motion.div>
+                        </motion.div> */}
                         <motion.div variants={linkVariants} initial="hidden" animate="show">
                             <RouterLink className="nav-link" to="/about">Our Faculty</RouterLink>
                         </motion.div>

@@ -147,7 +147,7 @@ const Finance = () => {
 
                 <Row id='international-financial-reporting-standards'>
                     <div className="mission-section py-5 text-center mt-3">
-                        <h1 className='mission-heading'>International Financial Reporting Standards (IFRS)</h1>
+                        <h1 className='mission-heading'>Unravelling & Applying IFRS</h1>
                     </div>
 
                     <InView threshold={0.2} triggerOnce>

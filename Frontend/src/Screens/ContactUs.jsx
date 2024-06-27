@@ -18,7 +18,6 @@ const ContactUs = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
-    const [service, setService] = useState('');
     const [msg, setMsg] = useState('');
     const [successMessage, setSuccessMessage] = useState(false);
 
@@ -26,7 +25,6 @@ const ContactUs = () => {
         name: name,
         email: email,
         phone: phone,
-        service: service,
         msg: msg,
     };
 
@@ -39,7 +37,6 @@ const ContactUs = () => {
                 setName('');
                 setEmail('');
                 setPhone('');
-                setService('');
                 setMsg('');
             }
         } catch (error) {
@@ -136,6 +133,7 @@ const ContactUs = () => {
                                                 }}
                                             />
                                         </Form.Group>
+                                        {/*
                                         <Form.Group className="mb-3" controlId="formBasicDropdown">
                                             <Form.Select
                                                 value={service}
@@ -149,6 +147,7 @@ const ContactUs = () => {
                                                 <option value="Coaching and Mentoring Program">Coaching and Mentoring Program</option>
                                             </Form.Select>
                                         </Form.Group>
+                                        */}
                                         <Form.Group className="mb-3" controlId="formBasicMessage">
                                             <Form.Control
                                                 as="textarea"
