@@ -74,8 +74,7 @@ export default function Footer() {
                                 <p style={{ color: "#212529", fontWeight: 500 }}>
                                 <h6 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Dubai</h6> <br/>
                                   <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
-                                    Dubai, UAE (Head Office) <br />
-                                    MCA Management Consultants <br />
+                                    MCA Management Consultants (Head office) <br />
                                     404 -10, Business Cluster Bldg 2 <br />
                                     Dubai CommerCity, Ummramool <br/>
                                     T + 971 4 331 9501 <br/> F + 971 4 331 9502
@@ -85,7 +84,6 @@ export default function Footer() {
                                 <h6 className='mission-heading' style={{ color: '#CE0932', fontWeight: 700 }}>Abu Dhabi</h6>
                                 <p style={{ color: "#212529", fontWeight: 500 }}>
                                     <FontAwesomeIcon icon={faMapMarkerAlt} className='me-2' />
-                                    Abu Dhabi, UAE (Head Office) <br />
                                     801- Al AIN Insurance Building,  <br />
                                     Hamdan Street, Abu Dhabi, UAE <br />
                                     T+ 971 2 445 0050 <br/>
