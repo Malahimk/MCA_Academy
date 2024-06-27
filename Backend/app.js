@@ -3,8 +3,14 @@ const cors = require('cors');
 const app = express();
 const emailRoute = require("./emailRoute")
 
-app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
-app.use(express.json());
+const corsOptions = {
+    origin: 'https://www.mcagulfacademy.com',
+    methods: ['POST', 'GET', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: false
+};
+
+app.use(cors(corsOptions));app.use(express.json());
 app.use('/api', emailRoute);
 
 module.exports = app;
