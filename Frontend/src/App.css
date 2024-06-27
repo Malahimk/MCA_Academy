@@ -1250,21 +1250,6 @@ h1 {
 
 
 
-@media (min-width: 0px) and (max-width: 576px) {
-  .mission-section2 {
-    display: none;
-    /* Hide RedBarSection on mobiles and tablets */
-  }
-}
-
-/* Medium devices (tablets, min-width: 576px and max-width: 768px) */
-@media (min-width: 576px) and (max-width: 768px) {
-  .mission-section2 {
-    display: none;
-    /* Hide RedBarSection on mobiles and tablets */
-  }
-}
-
 /* Large devices (desktops, min-width: 768px and max-width: 992px) */
 @media (min-width: 768px) and (max-width: 992px) {
   .mission-section2 {

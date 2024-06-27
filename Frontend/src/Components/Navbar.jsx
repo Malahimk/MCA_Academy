@@ -10,6 +10,12 @@ import { motion } from 'framer-motion';
 
 function BasicExample() {
     const location = useLocation();
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    };
 
     const linkVariants = {
         hidden: { y: 20, opacity: 0 },
@@ -34,25 +40,27 @@ function BasicExample() {
                         </motion.div>
                                                 {location.pathname === '/' && (
                             <>
-                                <motion.div variants={linkVariants} initial="hidden" animate="show">
-                                    <ScrollLink style = {{cursor:"pointer"}} className="nav-link" to="missions" spy={true} smooth={true} offset={-100} duration={500}>
-                                        Mission
-                                    </ScrollLink>
+                            <motion.div variants={linkVariants} initial="hidden" animate="show">
+                                    <RouterLink onClick={() => scrollToSection('missions')} className="nav-link" >Missions</RouterLink>
                                 </motion.div>
                                 <motion.div variants={linkVariants} initial="hidden" animate="show">
-                                    <ScrollLink style = {{cursor:"pointer"}} className="nav-link" to="pillars" spy={true} smooth={true} offset={-100} duration={500}>
-                                        Our Offerings
-                                    </ScrollLink>
+                                    <RouterLink onClick={() => scrollToSection('pillars')} className="nav-link" >Our Offerings</RouterLink>
                                 </motion.div>
                                 <motion.div variants={linkVariants} initial="hidden" animate="show">
-                            <RouterLink style = {{cursor:"pointer"}} className="nav-link" to="/about">Our Faculty</RouterLink>
-                        </motion.div>
+                                    <RouterLink className="nav-link" to="/about">Our Faculty</RouterLink>
+                                </motion.div>
                                 <motion.div variants={linkVariants} initial="hidden" animate="show">
-                                    <ScrollLink style = {{cursor:"pointer"}} className="nav-link" to="partners" spy={true} smooth={true} offset={-100} duration={500}>
+                                    <RouterLink
+                                        className="nav-link"
+                                        onClick={() => scrollToSection('partners')}
+                                        style={{ cursor: 'pointer' }}
+                                    >
                                         Our Partners
-                                    </ScrollLink>
+                                    </RouterLink >
                                 </motion.div>
-                               
+
+                    
+                                
 
                             </>
                         )}
