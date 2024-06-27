@@ -32,7 +32,8 @@ h1 {
 
 .nav_ul a {
   font-size: 1.4rem;
-  color: #CE0932 !important;
+  color: 
+  #ac0900 !important;
   font-weight: 700;
   letter-spacing: 0.5px;
 }
@@ -41,7 +42,7 @@ h1 {
   border: 0;
   padding: 0.5rem 1.8rem;
   color: white;
-  background-color: #CE0932;
+  background-color: #ac0900;
   cursor: pointer;
 }
 
@@ -50,7 +51,8 @@ h1 {
   border: 0;
   padding: 0.5rem 1.8rem;
   color: white;
-  background-color: #CE0932;
+  background-color:
+  #ac0900;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -64,7 +66,8 @@ h1 {
   border: 0;
   padding: 0.5rem 1.8rem;
   color: white;
-  background-color: #CE0932;
+  background-color: 
+  #ac0900;
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-bottom: 10%;
@@ -78,13 +81,15 @@ h1 {
   border: 0;
   padding: 0.5rem 1.2rem;
   color: white;
-  background-color: #CE0932;
+  background-color: 
+  #ac0900;
   cursor: pointer;
 }
 
 .btn3 {
   color: white;
-  background-color: #CE0932;
+  background-color: 
+  #ac0900;
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
@@ -105,7 +110,8 @@ h1 {
 }
 
 .mission-section h2 {
-  color: #CE0932;
+  color: 
+  #ac0900;
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
@@ -119,7 +125,8 @@ h1 {
 .mission-heading {
   position: relative;
   display: inline-block;
-  color: #CE0932;
+  color: 
+  #ac0900;
 }
 
 .mission-heading::after {
@@ -137,7 +144,8 @@ h1 {
 .mission-heading2 {
   position: relative;
   display: inline-block;
-  color: #CE0932;
+  color: 
+  #ac0900;
 }
 
 .mission-heading2 {
@@ -192,7 +200,7 @@ h1 {
 }
 
 .counter-wrapper::before {
-  background-color: #CE0932;
+  background-color: #ac0900;
   position: absolute;
   content: '';
   content: 0;
@@ -407,7 +415,8 @@ h1 {
 }
 
 .team-card-title {
-  color: #CE0932;
+  color: 
+  #ac0900;
   font-weight: 700;
 }
 
@@ -495,7 +504,8 @@ h1 {
 }
 
 .card-button {
-  background-color: #CE0932;
+  background-color:
+  #ac0900;
   border: none;
   transition: background-color 0.3s;
   align-self: flex-start;
@@ -1301,7 +1311,8 @@ h1 {
 
 .slider-title {
   text-align: center;
-  color: #CE0932 !important;
+  color: 
+  #ac0900 !important;
   font-size: 1.6rem;
 }
 
@@ -1312,7 +1323,8 @@ h1 {
 }
 
 .learnMore {
-  background-color: #CE0932;
+  background-color: 
+  #ac0900;
   color: white;
   border: none;
   padding: 10px 20px;

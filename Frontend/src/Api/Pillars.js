@@ -6,7 +6,7 @@ const pillars = [
         content3: "Development Centers",
         content4: "Executive Coaching",
         image: "/images/team.png",
-        color: "#CE0932"
+        color: "#ac0900"
     },  
     {
         title: 'Entrepreneurial Excellence -  Skills and mindset',
@@ -14,14 +14,14 @@ const pillars = [
         content2: "Global Leadership and Crisis Management",
         content3: "Leading a Business in a VUCA World",
         image: "/images/skills.png",
-        color: "#CE0932"
+        color: "#ac0900"
     },
     {
         title: 'Empowering Women Leaders For Success',
         content1: "Unlocking 'My' Professional Presence",
         content2: "Harmony-Empowering for balance",
         image: "/images/worker.png",
-        color: "#CE0932"
+        color: "#ac0900"
     },
     {
         title: 'Fostering Functional Expertise',
@@ -30,7 +30,7 @@ const pillars = [
         content3: "Supply Chain Programs",
         // content4: "Project Management Program",
         image: "/images/light-bulb.png",
-        color: "#CE0932"
+        color: "#ac0900"
     },
     {
         title: "Coaching for Professionals",
@@ -39,7 +39,7 @@ const pillars = [
         content3: "Certified Internal Auditor (CIA)",
         // content4: "International Financial Reporting Standards (IFRS)",
         image: "/images/coach.png",
-        color: "#CE0932"
+        color: "#ac0900"
     }
 ]
 

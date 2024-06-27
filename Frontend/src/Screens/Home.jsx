@@ -180,7 +180,7 @@ const Home = () => {
   //             >
   //               <div
   //                 style={{
-  //                   background: '#CE0932',
+  //                   background: '#ac0900',
   //                   borderRadius: '50%',
   //                   width: '8vw',
   //                   height: '8vw',
@@ -211,7 +211,7 @@ const Home = () => {
   //         <div style={{ position: 'relative', display: 'inline-block', zIndex: 2 }}>
   //           <div
   //             style={{
-  //               background: '#CE0932',
+  //               background: '#ac0900',
   //               borderRadius: '50%',
   //               width: '30vw',
   //               height: '30vw',
@@ -241,8 +241,8 @@ const Home = () => {
       }
     };
     return (
-      <div className='mission-section2 text-center' style={{ width: '100%', overflow: "hidden", padding: "0px", margin: "0px" }}>
-        <img src="/images/sun6.png" alt="" style={{ width: '100%' }} onClick={() => scrollToSection('pillars2')} />
+      <div className='mission-section2 text-center' style={{ width: '100%', overflow: "hidden", padding: "0px", margin: "0px", cursor: 'pointer' }}>
+        <img src="/images/sunny2.png" alt="" style={{ width: '100%' }} onClick={() => scrollToSection('pillars2')} />
       </div>
     );
   };

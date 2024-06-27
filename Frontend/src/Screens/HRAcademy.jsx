@@ -144,7 +144,7 @@ const HRAcademy = () => {
                     <Col xs={12} md={6}>
                         <motion.div initial="hidden" animate="show" variants={reveal("right", 0.3)}>
                             <div className="py-5">
-                                <h2 className="text-left mb-4 mission-heading" style={{ color: "#CE0932", fontWeight: 700 }}>HR Programs</h2>
+                                <h2 className="text-left mb-4 mission-heading" style={{ color: "#ac0900", fontWeight: 700 }}>HR Programs</h2>
                                 <p style={{ color: "#212529", fontWeight: 600, textAlign: "justify" }} className="text-justify">
                                     We offer a range of programs designed to enhance HR professionals' skills and drive organizational success. Our programs focus on strategic partnership development, data-driven decision-making, and grooming future HR leaders.
                                 </p>

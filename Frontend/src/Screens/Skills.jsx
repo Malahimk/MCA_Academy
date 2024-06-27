@@ -106,7 +106,7 @@ const Skills = () => {
                                         </ul>
                                     </Card.Text>
                                 </Card.Body>
-                                <Card.Footer style={{ backgroundColor: '#CE0932 ', color: '#fff', textAlign: 'center', height: '5vh' }}>
+                                <Card.Footer style={{ backgroundColor: '#ac0900 ', color: '#fff', textAlign: 'center', height: '5vh' }}>
                                 </Card.Footer>
                             </Card>
                         </motion.div>

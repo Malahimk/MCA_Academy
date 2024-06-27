@@ -56,7 +56,7 @@ const PillarCard = ({ data }) => {
                                             <div>
                                                 <Card.Title
                                                     className="cardTitle"
-                                                    style={{ textAlign: "center", cursor: 'pointer', color: "#CE0932" }}
+                                                    style={{ textAlign: "center", cursor: 'pointer', color: "#ac0900" }}
                                                     onClick={handleLinkClick}
                                                 >
                                                     {values.title}
