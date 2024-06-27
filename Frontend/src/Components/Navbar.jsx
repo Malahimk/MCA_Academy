@@ -45,13 +45,14 @@ function BasicExample() {
                                     </ScrollLink>
                                 </motion.div>
                                 <motion.div variants={linkVariants} initial="hidden" animate="show">
+                            <RouterLink style = {{cursor:"pointer"}} className="nav-link" to="/about">Our Faculty</RouterLink>
+                        </motion.div>
+                                <motion.div variants={linkVariants} initial="hidden" animate="show">
                                     <ScrollLink style = {{cursor:"pointer"}} className="nav-link" to="partners" spy={true} smooth={true} offset={-100} duration={500}>
                                         Our Partners
                                     </ScrollLink>
                                 </motion.div>
-                                <motion.div variants={linkVariants} initial="hidden" animate="show">
-                            <RouterLink style = {{cursor:"pointer"}} className="nav-link" to="/about">Our Faculty</RouterLink>
-                        </motion.div>
+                               
 
                             </>
                         )}

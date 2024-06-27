@@ -93,7 +93,7 @@ const EmpoweringWomenLeadersForSuccess = () => {
                                     <Card.Title style={{ textAlign: "center", marginTop: "10px" }}>Empowering Women Leaders For Success</Card.Title>
                                     <Card.Text>
                                         <ul className='card-list'>
-                                            <li style={{ cursor: "pointer", marginLeft: "15px", padding: "10px", marginTop: "30px", textIndent: '-25px' }} onClick={() => { scrollToSection("UnlockingMyProfessionalPresence") }}>Unloacking 'My' Professional Presence</li>
+                                            <li style={{ cursor: "pointer", marginLeft: "15px", padding: "10px", marginTop: "30px", textIndent: '-25px' }} onClick={() => { scrollToSection("UnlockingMyProfessionalPresence") }}>Unlocking 'My' Professional Presence</li>
                                             <li style={{ cursor: "pointer", marginLeft: "15px", padding: "10px", marginTop: "10px", textIndent: '-25px' }} onClick={() => { scrollToSection("HarmonyEmpoweringforbalance") }}>Harmony-Empowering for balance</li>
                                         </ul>
                                     </Card.Text>
