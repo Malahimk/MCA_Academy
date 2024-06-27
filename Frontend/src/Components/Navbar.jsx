@@ -35,22 +35,22 @@ function BasicExample() {
                                                 {location.pathname === '/' && (
                             <>
                                 <motion.div variants={linkVariants} initial="hidden" animate="show">
-                                    <ScrollLink className="nav-link" to="missions" spy={true} smooth={true} offset={-100} duration={500}>
+                                    <ScrollLink style = {{cursor:"pointer"}} className="nav-link" to="missions" spy={true} smooth={true} offset={-100} duration={500}>
                                         Mission
                                     </ScrollLink>
                                 </motion.div>
                                 <motion.div variants={linkVariants} initial="hidden" animate="show">
-                                    <ScrollLink className="nav-link" to="pillars" spy={true} smooth={true} offset={-100} duration={500}>
+                                    <ScrollLink style = {{cursor:"pointer"}} className="nav-link" to="pillars" spy={true} smooth={true} offset={-100} duration={500}>
                                         Our Offerings
                                     </ScrollLink>
                                 </motion.div>
                                 <motion.div variants={linkVariants} initial="hidden" animate="show">
-                                    <ScrollLink className="nav-link" to="partners" spy={true} smooth={true} offset={-100} duration={500}>
+                                    <ScrollLink style = {{cursor:"pointer"}} className="nav-link" to="partners" spy={true} smooth={true} offset={-100} duration={500}>
                                         Our Partners
                                     </ScrollLink>
                                 </motion.div>
                                 <motion.div variants={linkVariants} initial="hidden" animate="show">
-                            <RouterLink className="nav-link" to="/about">Our Faculty</RouterLink>
+                            <RouterLink style = {{cursor:"pointer"}} className="nav-link" to="/about">Our Faculty</RouterLink>
                         </motion.div>
 
                             </>
