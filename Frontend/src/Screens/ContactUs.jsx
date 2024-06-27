@@ -92,7 +92,7 @@ const ContactUs = () => {
                         >
                             <div className="subscription-box">
                                 <div className="left">
-                                    <h1>Contact Us Now</h1>
+                                    <h1>Get in Touch</h1>
                                     <br />
                                     <h5>Have a question or need more information? Kindly share your details and our team will get back to you shortly.</h5>
                                 </div>
