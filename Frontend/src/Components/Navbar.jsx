@@ -41,7 +41,7 @@ function BasicExample() {
                                                 {location.pathname === '/' && (
                             <>
                             <motion.div variants={linkVariants} initial="hidden" animate="show">
-                                    <RouterLink onClick={() => scrollToSection('missions')} className="nav-link" >Missions</RouterLink>
+                                    <RouterLink onClick={() => scrollToSection('missions')} className="nav-link" >Mission</RouterLink>
                                 </motion.div>
                                 <motion.div variants={linkVariants} initial="hidden" animate="show">
                                     <RouterLink onClick={() => scrollToSection('pillars')} className="nav-link" >Our Offerings</RouterLink>
