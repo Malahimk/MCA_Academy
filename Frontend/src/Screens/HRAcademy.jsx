@@ -189,7 +189,7 @@ const HRAcademy = () => {
                                         <ul className='card-list'>
                                             <h4 className='mission-heading2'>Who Should Attend?</h4> <br />
                                             <li>HR professionals moving to strategic roles</li>
-                                            <li>HR professionals moving to strategic roles</li>
+                                            <li>Mid to Senior-Level HR Managers</li>
                                             <li>Business leaders enhancing HR functions</li>
                                         </ul>
                                     </motion.div>
