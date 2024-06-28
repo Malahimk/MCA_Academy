@@ -242,7 +242,7 @@ const Home = () => {
     };
     return (
       <div className='mission-section2 text-center' style={{ width: '100%', overflow: "hidden", padding: "0px", margin: "0px", cursor: 'pointer' }}>
-        <img src="/images/sunny2.png" alt="" style={{ width: '100%' }} onClick={() => scrollToSection('pillars2')} />
+        <img src="/images/sunset.jpg" alt="" style={{ width: '100%' }} onClick={() => scrollToSection('pillars2')} />
       </div>
     );
   };
