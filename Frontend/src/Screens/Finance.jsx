@@ -163,7 +163,7 @@ const Finance = () => {
                                     >
                                         <h4 className='mission-heading2'>Objectives</h4>
                                         <p style={{ textAlign: "justify", padding: "10px", color: "#212529", fontWeight: 600 }}>
-                                            This program will enable the participants to better understand the conceptual framework and be able to prepare both stand alone and consolidated financial statements by effectively using the rules of recognition, measurement, presentation, and disclosure for determining the Impact of important business events on the financial statements.
+                                            This program will enable the participants to better understand the conceptual framework and be able to prepare both stand alone and consolidated financial statements by effectively using the rules of recognition, measurement, presentation, and disclosure for determining the impact of important business events on the financial statements.
                                         </p>
                                     </motion.div>
                                 </Col>
