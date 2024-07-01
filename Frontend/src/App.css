@@ -1431,4 +1431,14 @@ h1 {
   .missionCardImg {
     height: 40vh;
   }
-}
+ }
+/* .slider-container.center-items .carousel-container { */
+  display: flex;
+  justify-content: center;
+/*} */
+/* 
+.slider-container.center-items .carousel-item-wrapper {
+  max-width: 100%;
+  flex: 0 0 50%;
+  box-sizing: border-box;
+} */

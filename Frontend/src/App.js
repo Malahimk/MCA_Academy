@@ -52,7 +52,7 @@ function App() {
         <Route exact path='/about' element={<About />} />
         <Route exact path='/HRPrograms' element={<HRAcademy />} />
         <Route exact path='/FinancePrograms' element={<Finance />} />
-        <Route exact path='/SupplyChainPrograms' element={<SupplyChainAcademy />} />
+        <Route exact path='/ProjectManagementPrograms' element={<SupplyChainAcademy />} />
         <Route exact path='/CoachingandMentoring' element={<CoachingandMentoring />} />
         <Route exact path='/UnlockingAuthenticLeadership' element={<UnlockingAuthenticLeadership />} />
         <Route exact path='/EntrepreneurialExcellenceSkillsandmindset' element={<Skills />} />

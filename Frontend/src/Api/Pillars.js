@@ -27,7 +27,7 @@ const pillars = [
         title: 'Fostering Functional Expertise',
         content1: "Finance Programs",
         content2: "HR Programs",
-        content3: "Supply Chain Programs",
+        content3: "Project Management Programs",
         // content4: "Project Management Program",
         image: "/images/light-bulb.png",
         color: "#ac0900"
