@@ -1016,13 +1016,13 @@ h1 {
 }
 
 .subscription-box {
-  background-color: #c30932;
+  background-color: #ac0900;
   color: white;
   padding: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: radial-gradient(circle at center, #c30932, #c30932, #c30932, #c30932, #7f041d);
+  background: radial-gradient(circle at center, #ac0900, #ac0900, #ac0900, #ac0900, #7f041d);
 }
 
 .subscription-box .left {

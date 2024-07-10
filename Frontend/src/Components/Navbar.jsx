@@ -27,9 +27,9 @@ function BasicExample() {
             <Container>
                 <RouterLink to="/" className="navbar-brand">
                     <img
-                        src="/images/Picture1.png"
+                        src="/images/mcafinallogo.png"
                         alt="MCA UAE"
-                        style={{ maxWidth: '230px', maxHeight: '100px' }}
+                        style={{ maxWidth: '290px', maxHeight: '200px' }}
                     />
                 </RouterLink>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
