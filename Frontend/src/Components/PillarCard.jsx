@@ -6,14 +6,19 @@ import Col from 'react-bootstrap/Col';
 import { motion } from 'framer-motion';
 import Button from 'react-bootstrap/Button';
 import { useInView } from 'react-intersection-observer';
-
+// import useNavigate from react-router for internal navigation
+// import { useNavigate } from 'react-router-dom';
 
 const PillarCard = ({ data }) => {
+    // const navigate = useNavigate(); // Use React Router's useNavigate instead of window.location.href
+
     const handleLinkClick2 = (event) => {
         event.preventDefault();
         const content = event.target.innerText;
         const url = `/${content.replace(/\s+/g, '').replace(/[^\w\s]/gi, '')}`;
-        window.location.href = url;
+        // Use navigate for internal routing to prevent full page reload
+        // navigate(url);
+        window.location.href = url; // Comment this out if using useNavigate
         window.scrollTo(0, 0);
     };
 
@@ -26,7 +31,9 @@ const PillarCard = ({ data }) => {
             if (titleElement) {
                 const content = titleElement.innerText;
                 const url = `/${content.replace(/\s+/g, '').replace(/[^\w\s]/gi, '')}`;
-                window.location.href = url;
+                // Use navigate for internal routing to prevent full page reload
+                // navigate(url);
+                window.location.href = url; // Comment this out if using useNavigate
                 window.scrollTo(0, 0);
             }
         }
@@ -35,9 +42,13 @@ const PillarCard = ({ data }) => {
     return (
         <div>
             <Container>
-                <Row className="justify-content-center">
+                {/* Add Heading for "Our Vertical" with the same style as "Our Mission" */}
+                <h2 style={{ textAlign: 'center', color: '#ac0900', fontWeight: 'bold', margin: '40px 0' }}>Our Verticals</h2>
+                
+                {/* Change Row component to 'flex-nowrap' class to make sure the cards are in one line */}
+                <Row className="flex-nowrap justify-content-center">
                     {data.map((values, index) => (
-                        <Col key={index} sm={12} md={6} lg={4} xl={4} className="mb-5 mt-3 d-flex justify-content-center">
+                        <Col key={index} sm={12} md={6} lg={4} xl={3} className="mb-3 mt-3 d-flex justify-content-center">
                             <motion.div
                                 className="box"
                                 initial={{ opacity: 0, translateX: -50, translateY: -50 }}
@@ -45,7 +56,7 @@ const PillarCard = ({ data }) => {
                                 transition={{ duration: 0.2, delay: index * 0.2 }}
                             >
                                 <InViewWrapper>
-                                    <Card className="card pillarCard center-card pillarCardHeight h-100">
+                                    <Card className="card pillarCard center-card pillarCardHeight h-100" style={{ margin: "0 10px" }}>
                                         <Card.Img
                                             variant="top"
                                             style={{ width: "40%", height: "30%", margin: "auto", padding: "20px 0" }}
@@ -96,7 +107,7 @@ const PillarCard = ({ data }) => {
 const InViewWrapper = ({ children }) => {
     const { ref, inView } = useInView({
         triggerOnce: true,
-        threshold: 0,
+        threshold: 0.1, // Adjusted threshold for more visible element before trigger
     });
 
     return <motion.div ref={ref}>{inView && children}</motion.div>;

@@ -32,15 +32,15 @@ const pillars = [
         image: "/images/light-bulb.png",
         color: "#ac0900"
     },
-    {
-        title: "Coaching for Professionals",
-        content1: "Chartered Financial Analyst (CFA)",
-        content2: "Certified Management Accountant (CMA)",
-        content3: "Certified Internal Auditor (CIA)",
-        // content4: "International Financial Reporting Standards (IFRS)",
-        image: "/images/coach.png",
-        color: "#ac0900"
-    }
+    // {
+    //     title: "Coaching for Professionals",
+    //     content1: "Chartered Financial Analyst (CFA)",
+    //     content2: "Certified Management Accountant (CMA)",
+    //     content3: "Certified Internal Auditor (CIA)",
+    //     // content4: "International Financial Reporting Standards (IFRS)",
+    //     image: "/images/coach.png",
+    //     color: "#ac0900"
+    // }
 ]
 
 

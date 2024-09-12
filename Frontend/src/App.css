@@ -1433,8 +1433,8 @@ h1 {
   }
  }
 /* .slider-container.center-items .carousel-container { */
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 /*} */
 /* 
 .slider-container.center-items .carousel-item-wrapper {

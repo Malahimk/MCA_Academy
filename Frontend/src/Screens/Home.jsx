@@ -242,7 +242,7 @@ const Home = () => {
     };
     return (
       <div className='mission-section2 text-center' style={{ width: '100%', overflow: "hidden", padding: "0px", margin: "0px", cursor: 'pointer' }}>
-        <img src="/images/reborn3.png" alt="" style={{ width: '100%' }} onClick={() => scrollToSection('pillars2')} />
+        {/* <img src="/images/reborn3.png" alt="" style={{ width: '100%' }} onClick={() => scrollToSection('pillars2')} /> */}
       </div>
     );
   };
@@ -307,7 +307,7 @@ const Home = () => {
         <h2 className="mission-heading" style={{ marginBottom: '40px' }}>Our Partners</h2>
         <Container fluid className='py-5 bg-light' style={{ width: "100%" }}>
           <Row className="justify-content-center">
-            {partners.map((partner, index) => (
+            {partners.map((partner, index) => ( 
               <Col key={index} md={4} sm={6} className="mb-4 d-flex justify-content-center">
                 <div className="partner-box text-center" style={{ maxWidth: '450px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                   <a href={partner.link} target="_blank" rel="noopener noreferrer" style={{ display: 'block' }}>
