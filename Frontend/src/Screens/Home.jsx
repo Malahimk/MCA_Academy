@@ -275,9 +275,12 @@ const Home = () => {
       <Container fluid style={{ width: "100%" }}>
         <Row>
           <Col>
-            <div className="" ref={ref}>
-              <PillarCard data={pillars} />
+            <div className="mission-heading3-container" ref={ref}>
+              <h2 className="mission-heading3">
+                Our Verticals
+              </h2>
             </div>
+            <PillarCard data={pillars} />
           </Col>
         </Row>
       </Container>
