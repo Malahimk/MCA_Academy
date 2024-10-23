@@ -49,7 +49,7 @@ const pillars = [
         content4: "Goverance",
         content5: "Sustainability Reporting and Metrics",
         image: "/images/pillar5img.png",
-        color: "#CE0932"
+        color: "#ac0900"
     }
 ]
 
