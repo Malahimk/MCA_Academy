@@ -41,6 +41,16 @@ const pillars = [
     //     image: "/images/coach.png",
     //     color: "#ac0900"
     // }
+    {
+        title: 'Driving ESG & Sustainability',
+        content1: "Introduction to ESG",
+        content2: "Enviromental Factors",
+        content3: "Social Responsibilty",
+        content4: "Goverance",
+        content5: "Sustainability Reporting and Metrics",
+        image: "/images/pillar5img.png",
+        color: "#CE0932"
+    }
 ]
 
 
