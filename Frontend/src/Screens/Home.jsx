@@ -296,7 +296,7 @@ const Home = () => {
     const partners = [
       { imgSrc: '/images/nvox2.PNG', text: 'Enhance leadership skills to meet business results by leveraging AI technology', link: 'https://nworx.ai/' },
       { imgSrc: '/images/pdeu.PNG', text: 'To build intellectual capital and human resources in the fast-developing and competitive energy industry', link: 'https://www.pdpu.ac.in/' },
-      { imgSrc: '/images/isblogo.jpeg', text: 'To develops global leaders through top-ranked programs, blending advanced research with real-world expertise.', link: 'https://execed.isb.edu/en.html' },
+      { imgSrc: '/images/isblogo.jpg', text: 'To develops global leaders through top-ranked programs, blending advanced research with real-world expertise.', link: 'https://execed.isb.edu/en.html' },
     ];
 
     return (
