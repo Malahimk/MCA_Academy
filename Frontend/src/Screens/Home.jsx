@@ -294,11 +294,11 @@ const Home = () => {
     });
 
     const partners = [
-      { imgSrc: '/images/nvox2.PNG', text: 'Enhance leadership skills to meet business results by leveraging AI technology', link: 'https://nworx.ai/' },
-      { imgSrc: '/images/pdeu.PNG', text: 'To build intellectual capital and human resources in the fast-developing and competitive energy industry', link: 'https://www.pdpu.ac.in/' },
+      { imgSrc: '/images/nvox2.PNG', text: 'Enhance leadership skills to meet business results by leveraging AI technology', link: '' },
+      { imgSrc: '/images/pdeu.PNG', text: 'To build intellectual capital and human resources in the fast-developing and competitive energy industry', link: '' },
       { imgSrc: '/images/isblogo.jpg', text: 'Transformational learning journeys designed to equip executives across business areas', },
-      { imgSrc: '/images/download.png', text: 'Transforming Coaching & Mentoring by integrating our cutting edge platform with organizational needs', link: 'https://we-ace.com/' },
-      { imgSrc: '/images/MYSOBlue.png', text: 'Specialize in combining bespoke content with our micro-courses to meet the specific needs of your organization and employees.', link: 'https://www.mysustainonline.com/' },
+      { imgSrc: '/images/download.png', text: 'Transforming Coaching & Mentoring by integrating our cutting edge platform with organizational needs', link: '' },
+      { imgSrc: '/images/MYSOBlue.png', text: 'Specialize in combining bespoke content with our micro-courses to meet the specific needs of your organization and employees.', link: '' },
 
 
     ];
