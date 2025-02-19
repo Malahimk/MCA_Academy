@@ -10,15 +10,19 @@
     "url": "git+https://github.com/Malahimk/MCA_Academy.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "\"\"",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Malahimk/MCA_Academy/issues"
   },
   "homepage": "https://github.com/Malahimk/MCA_Academy#readme",
-  "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  }
+    "react-dom": "^19.0.0",
+    "react-scripts": "^3.0.1"
+  },
+  "description": "\"\""
 }
