@@ -127,12 +127,12 @@ const Home = () => {
   function PartnersSection() {
     const { ref, inView } = useInView({ triggerOnce: true, threshold: 0 });
 
-    const partners = [
-      { imgSrc: '/images/nvox2.PNG', text: 'Enhance leadership skills to meet business results by leveraging AI technology', link: '' },
-      { imgSrc: '/images/pdeu.PNG', text: 'To build intellectual capital and human resources in the fast-developing and competitive energy industry', link: '' },
-      { imgSrc: '/images/isblogo.jpg', text: 'Transformational learning journeys designed to equip executives across business areas', link: '/isb' }, // Linked to ISB.jsx
-      { imgSrc: '/images/download.png', text: 'Transforming Coaching & Mentoring by integrating our cutting-edge platform with organizational needs', link: '' },
-      { imgSrc: '/images/MYSOBlue.png', text: 'Specialize in combining bespoke content with our micro-courses to meet the specific needs of your organization and employees.', link: '' },
+     const partners = [
+      { imgSrc: "/images/nvox2.PNG", text: "Enhance leadership skills to meet business results by leveraging AI technology", link: "/nworx" },
+      { imgSrc: "/images/pdeu.PNG", text: "To build intellectual capital and human resources in the fast-developing and competitive energy industry", link: null }, // WRITE /pdu HERE OK
+      { imgSrc: "/images/isblogo.jpg", text: "Transformational learning journeys designed to equip executives across business areas", link: "/isb" },
+      { imgSrc: "/images/download.png", text: "Transforming Coaching & Mentoring by integrating our cutting-edge platform with organizational needs", link: "/weace" },
+      { imgSrc: "/images/MYSOBlue.png", text: "Specialize in combining bespoke content with our micro-courses to meet the specific needs of your organization and employees.", link: "/myso" },
     ];
 
     return (
