@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { useEffect } from 'react';
 import './App.css';
 import Home from './Screens/Home';
 import About from './Screens/About';
@@ -13,7 +14,13 @@ import EmpoweringWomenLeadersForSuccess from './Screens/EmpoweringWomenLeadersFo
 import Fostering from './Screens/Fostering';
 import Coaching from './Screens/Coaching';
 import ContactUs from './Screens/ContactUs';
-import { useEffect } from 'react';
+import NewScreen from './Screens/NewScreen';
+import NewScreen2 from './Screens/NewScreen2';
+import NewScreen3 from './Screens/NewScreen3';
+import NewScreen4 from './Screens/NewScreen4';
+import NewScreen5 from './Screens/NewScreen5';
+import xyz from './Screens/xyz';
+
 // import FinancialReporting from './Screens/FinancialReporting';
 // import GrowthProgram from './Screens/GrowthProgram';
 // import Budgeting from './Screens/Budgeting';
@@ -40,19 +47,17 @@ import Executive from './Screens/Executive';
 
 
 function App() {
-
   useEffect(() => {
     document.body.style.zoom = '90%';
-  }, []);
-
+  }, []);
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route exact path='/about' element={<About />} />
-        <Route exact path='/HRPrograms' element={<HRAcademy />} />
-        <Route exact path='/FinancePrograms' element={<Finance />} />
-        <Route exact path='/ProjectManagementPrograms' element={<SupplyChainAcademy />} />
+        <Route exact path='/HRProgram' element={<HRAcademy />} />
+        <Route exact path='/FinanceProgram' element={<Finance />} />
+        <Route exact path='/SupplyChainProgram' element={<SupplyChainAcademy />} />
         <Route exact path='/CoachingandMentoring' element={<CoachingandMentoring />} />
         <Route exact path='/UnlockingAuthenticLeadership' element={<UnlockingAuthenticLeadership />} />
         <Route exact path='/EntrepreneurialExcellenceSkillsandmindset' element={<Skills />} />
@@ -71,11 +76,11 @@ function App() {
         <Route exact path='/credit-risk-analysis-modelling' element={<Credit />} /> */}
 
         {/* Women Pillar */}
-        <Route exact path='/UnlockingMyProfessionalPresence' element={<Unlocking />} />
+        <Route exact path='/UnloackingMyProfessionalPresence' element={<Unlocking />} />
         <Route exact path='/HarmonyEmpoweringforbalance' element={<Harmony />} />
 
         {/* Skills Pillar */}
-        <Route exact path='/StrategyandTransformation' element={<Stratergy />} />
+        <Route exact path='/StratergyandTransformation' element={<Stratergy />} />
         <Route exact path='/GlobalLeadershipandCrisisManagement' element={<Global />} />
         <Route exact path='/LeadingaBusinessinaVUCAWorld' element={<Leading />} />
 
@@ -84,6 +89,15 @@ function App() {
         <Route exact path='/EmergingLeaderDevelopment' element={<Emerging />} />
         <Route exact path='/DevelopmentCenters' element={<Development />} />
         <Route exact path='/ExecutiveCoaching' element={<Executive />} />
+
+        <Route exact path='/xyz' element={<xyz />} />
+
+        <Route exact path='/isb' element={<NewScreen />} />
+        <Route exact path='/nworx' element={<NewScreen2 />} />
+        <Route exact path='/myso' element={<NewScreen3 />} />
+        <Route exact path='/weace' element={<NewScreen4 />} />
+        <Route exact path='/pdu' element={<NewScreen5 />} />
+
 
         {/* <Route exact path='/hr-business-partnering-development-program' element={<HRBusiness />} />
         <Route exact path='/hr-analytics-for-data-driven-decision-making' element={<HRAnalytics />} />
