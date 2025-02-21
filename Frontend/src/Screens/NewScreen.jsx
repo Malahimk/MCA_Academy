@@ -108,7 +108,7 @@ const NewScreen = () => {
                                     ISB Executive Education
                                 </h2>
                                 <p style={{ color: "#212529", fontWeight: 600, textAlign: "justify" }} className="text-justify">
-                                    MCA Academy partners with ISB Executive Education, marking a new chapter in delivering transformational learning designed to prepare future leaders. ISB empowers working professionals with cutting-edge management strategies, renowned faculty from the world’s top business schools, and an engaging exchange between academia and industry. This partnership aligns MCA Academy’s mission to drive regional growth with ISB’s legacy of empowering leaders. Together, we will deliver high-impact training programs to equip professionals with the skills and knowledge needed to thrive in today’s dynamic business landscape.
+                                    MCA Academy partners with ISB Executive Education, marking a new chapter in <br /> delivering transformational learning designed to prepare future leaders. ISB empowers working professionals with cutting-edge management strategies, renowned faculty from the world’s top business schools, and an engaging exchange between academia and industry. This partnership aligns MCA Academy’s mission to drive regional growth with ISB’s legacy of empowering leaders. Together, we will deliver high-impact training programs to equip professionals with the skills and knowledge needed to thrive in today’s dynamic business landscape.
                                 </p>
                             </div>
                         </motion.div>
