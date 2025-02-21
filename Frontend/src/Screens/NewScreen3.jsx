@@ -107,7 +107,7 @@ const NewScreen3 = () => {
                                 MySustainOnline
                                 </h2>
                                 <p style={{ color: "#212529", fontWeight: 600, textAlign: "justify" }} className="text-justify">
-                                Marking a new chapter in delivering transformational learning designed to prepare future leaders. This partnership aligns MCA Academy’s mission to drive regional growth with MySustainOnline’s expertise in sustainability training and workforce empowerment. MySustainOnline provides scalable, expert-led, and customized learning solutions to help organizations integrate sustainability into their business strategy. Together, we will equip professionals with the knowledge and skills needed to drive sustainable business transformation, develop leadership in green initiatives, and align corporate practices with global sustainability goals.
+                                Marking a new chapter in delivering transformational learning designed <br />to prepare future leaders. This partnership aligns MCA Academy’s mission to drive <br /> regional growth with MySustainOnline’s expertise in sustainability training <br />and workforce empowerment. MySustainOnline provides scalable, expert-led, and customized <br />learning solutions to help organizations integrate sustainability into their business strategy.<br /> Together, we will equip professionals with the knowledge and skills needed to <br /> drive sustainable business transformation, develop leadership in green initiatives, and align <br /> corporate practices with global sustainability goals.
                                 </p>
                             </div>
                         </motion.div>

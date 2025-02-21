@@ -107,7 +107,7 @@ const NewScreen4 = () => {
                                     Weace
                                 </h2>
                                 <p style={{ color: "#212529", fontWeight: 600, textAlign: "justify" }} className="text-justify">
-                                Opening a new phase of transformational learning aimed at shaping future leaders, this collaboration supports MCA Academy’s goal of fostering business growth through WeAce’s advanced digital coaching and mentoring platform. WeAce specializes in leadership development, career transition coaching, and well-being support, leveraging AI-driven solutions to match professionals with expert mentors. Together, we will provide high-impact coaching programs that empower individuals and organizations to foster continuous growth, resilience, and leadership excellence.
+                                Opening a new phase of transformational learning aimed at <br />shaping future leaders, this collaboration supports MCA Academy’s goal of fostering business <br />growth through WeAce’s advanced digital coaching and mentoring platform. <br /> WeAce specializes in leadership development, career transition coaching, and well-being <br />support, leveraging AI-driven solutions to match professionals with expert mentors. Together, we <br /> will provide high-impact coaching programs that empower individuals and organizations to <br /> foster continuous growth, resilience, and leadership excellence.
                                 </p>
                             </div>
                         </motion.div>
