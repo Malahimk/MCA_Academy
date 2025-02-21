@@ -180,7 +180,7 @@ const NewScreen = () => {
                     </div>
 
                     {/* Business Owners/ CXOs/ Board Members Exp: 25+ years */}
-                    <h3 className="text-center mt-4">Business Owners/ CXOs/ Board Members (Exp: 25+ years)</h3>
+                    <h4 className="text-center mt-4">Business Owners/ CXOs/ Board Members (Exp: 25+ years)</h4>
                     <InView threshold={0.2} triggerOnce>
                         {({ inView, ref }) => (
                             <div style={{ display: 'flex', flexWrap: 'wrap' }}>
