@@ -32,8 +32,7 @@ h1 {
 
 .nav_ul a {
   font-size: 1.4rem;
-  color: 
-  #ac0900 !important;
+  color: #CE0932 !important;
   font-weight: 700;
   letter-spacing: 0.5px;
 }
@@ -42,7 +41,7 @@ h1 {
   border: 0;
   padding: 0.5rem 1.8rem;
   color: white;
-  background-color: #ac0900;
+  background-color: #CE0932;
   cursor: pointer;
 }
 
@@ -51,8 +50,7 @@ h1 {
   border: 0;
   padding: 0.5rem 1.8rem;
   color: white;
-  background-color:
-  #ac0900;
+  background-color: #CE0932;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -66,8 +64,7 @@ h1 {
   border: 0;
   padding: 0.5rem 1.8rem;
   color: white;
-  background-color: 
-  #ac0900;
+  background-color: #CE0932;
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-bottom: 10%;
@@ -81,15 +78,13 @@ h1 {
   border: 0;
   padding: 0.5rem 1.2rem;
   color: white;
-  background-color: 
-  #ac0900;
+  background-color: #CE0932;
   cursor: pointer;
 }
 
 .btn3 {
   color: white;
-  background-color: 
-  #ac0900;
+  background-color: #CE0932;
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
@@ -105,13 +100,9 @@ h1 {
 }
 
 
-.mission-section2 {
-  padding: 3rem 1rem;
-}
 
 .mission-section h2 {
-  color: 
-  #ac0900;
+  color: #CE0932;
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
@@ -125,8 +116,7 @@ h1 {
 .mission-heading {
   position: relative;
   display: inline-block;
-  color: 
-  #ac0900;
+  color: #CE0932;
 }
 
 .mission-heading::after {
@@ -144,8 +134,7 @@ h1 {
 .mission-heading2 {
   position: relative;
   display: inline-block;
-  color: 
-  #ac0900;
+  color: #CE0932;
 }
 
 .mission-heading2 {
@@ -175,7 +164,7 @@ h1 {
 .mission-heading3 {
   position: relative;
   display: inline-block; 
-  color: #ac0900;
+  color: #CE0932;
   margin: 20px;
 }
 
@@ -190,6 +179,7 @@ h1 {
   transform-origin: bottom left;
   animation: expandUnderline 1s ease-in-out infinite alternate;
 }
+
 
 @keyframes expandUnderline {
   from {
@@ -226,7 +216,7 @@ h1 {
 }
 
 .counter-wrapper::before {
-  background-color: #ac0900;
+  background-color: #CE0932;
   position: absolute;
   content: '';
   content: 0;
@@ -441,8 +431,7 @@ h1 {
 }
 
 .team-card-title {
-  color: 
-  #ac0900;
+  color: #CE0932;
   font-weight: 700;
 }
 
@@ -530,8 +519,7 @@ h1 {
 }
 
 .card-button {
-  background-color:
-  #ac0900;
+  background-color: #CE0932;
   border: none;
   transition: background-color 0.3s;
   align-self: flex-start;
@@ -1042,13 +1030,13 @@ h1 {
 }
 
 .subscription-box {
-  background-color: #ac0900;
+  background-color: #c30932;
   color: white;
   padding: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: radial-gradient(circle at center, #ac0900, #ac0900, #ac0900, #ac0900, #7f041d);
+  background: radial-gradient(circle at center, #c30932, #c30932, #c30932, #c30932, #7f041d);
 }
 
 .subscription-box .left {
@@ -1286,6 +1274,21 @@ h1 {
 
 
 
+@media (min-width: 0px) and (max-width: 576px) {
+  .mission-section2 {
+    display: none;
+    /* Hide RedBarSection on mobiles and tablets */
+  }
+}
+
+/* Medium devices (tablets, min-width: 576px and max-width: 768px) */
+@media (min-width: 576px) and (max-width: 768px) {
+  .mission-section2 {
+    display: none;
+    /* Hide RedBarSection on mobiles and tablets */
+  }
+}
+
 /* Large devices (desktops, min-width: 768px and max-width: 992px) */
 @media (min-width: 768px) and (max-width: 992px) {
   .mission-section2 {
@@ -1337,8 +1340,7 @@ h1 {
 
 .slider-title {
   text-align: center;
-  color: 
-  #ac0900 !important;
+  color: #CE0932 !important;
   font-size: 1.6rem;
 }
 
@@ -1349,8 +1351,7 @@ h1 {
 }
 
 .learnMore {
-  background-color: 
-  #ac0900;
+  background-color: #CE0932;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -1395,6 +1396,8 @@ h1 {
 
   .learnMore {
     font-size: 1.2rem;
+    width: auto;
+    white-space: nowrap;
   }
 }
 
@@ -1457,14 +1460,15 @@ h1 {
   .missionCardImg {
     height: 40vh;
   }
- }
-/* .slider-container.center-items .carousel-container { */
-  /* display: flex;
-  justify-content: center; */
-/*} */
-/* 
+}
+
+.slider-container.center-items .carousel-container {
+  display: flex;
+  justify-content: center;
+}
+
 .slider-container.center-items .carousel-item-wrapper {
   max-width: 100%;
   flex: 0 0 50%;
-  box-sizing: border-box;
-} */
+  box-sizing: border-box;
+}
