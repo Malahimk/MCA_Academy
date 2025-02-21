@@ -99,6 +99,12 @@ function App() {
         <Route exact path='/hr-business-partnering-development-program' element={<HRBusiness />} />
         <Route exact path='/hr-analytics-for-data-driven-decision-making' element={<HRAnalytics />} />
         <Route exact path='/young-hr-professional-excellence-program' element={<YoungHR />} />
+
+        {/* Add the new routes here */}
+        <Route exact path='/StrategyandTransformation' element={<Stratergy />} />
+        <Route exact path='/FinancePrograms' element={<Finance />} />
+        <Route exact path='/HRPrograms' element={<HRAcademy />} />
+        <Route exact path='/ProjectManagementPrograms' element={<ProjectManagement />} />
       </Routes>
     </Router>
   );
