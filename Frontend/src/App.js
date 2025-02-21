@@ -104,7 +104,7 @@ function App() {
         <Route exact path='/StrategyandTransformation' element={<Stratergy />} />
         <Route exact path='/FinancePrograms' element={<Finance />} />
         <Route exact path='/HRPrograms' element={<HRAcademy />} />
-        <Route exact path='/ProjectManagementPrograms' element={<ProjectManagement />} />
+        {/* <Route exact path='/ProjectManagementPrograms' element={<ProjectManagement />} /> */}
       </Routes>
     </Router>
   );
