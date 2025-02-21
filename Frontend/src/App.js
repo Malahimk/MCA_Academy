@@ -45,7 +45,6 @@ import HRBusiness from './Screens/HRBusiness';
 import HRAnalytics from './Screens/HRAnalytics';
 import YoungHR from './Screens/YoungHR';
 
-
 function App() {
   useEffect(() => {
     document.body.style.zoom = '90%';
@@ -66,7 +65,6 @@ function App() {
         <Route exact path='/CoachingforProfessionals' element={<Coaching />} />
         <Route exact path='/ContactUs' element={<ContactUs />} />
 
-
         <Route exact path='/international-financial-reporting-standards' element={<FinancialReporting />} />
         <Route exact path='/growth-program-for-accountants' element={<GrowthProgram />} />
         <Route exact path='/budgeting-variance-analysis-modelling' element={<Budgeting />} />
@@ -75,8 +73,8 @@ function App() {
         <Route exact path='/finance-for-decision-making-for-non-finance' element={<DecisionMaking />} />
         <Route exact path='/credit-risk-analysis-modelling' element={<Credit />} />
 
-        Women Pillar
-        <Route exact path='/UnloackingMyProfessionalPresence' element={<Unlocking />} />
+        {/* Women Pillar */}
+        <Route exact path='/UnlockingMyProfessionalPresence' element={<Unlocking />} />
         <Route exact path='/HarmonyEmpoweringforbalance' element={<Harmony />} />
 
         {/* Skills Pillar */}
@@ -98,20 +96,12 @@ function App() {
         <Route exact path='/weace' element={<NewScreen4 />} />
         <Route exact path='/pdu' element={<NewScreen5 />} />
 
-
         <Route exact path='/hr-business-partnering-development-program' element={<HRBusiness />} />
         <Route exact path='/hr-analytics-for-data-driven-decision-making' element={<HRAnalytics />} />
         <Route exact path='/young-hr-professional-excellence-program' element={<YoungHR />} />
-
-
-
       </Routes>
     </Router>
   );
 }
 
 export default App;
-
-
-
-
