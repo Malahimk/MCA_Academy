@@ -19,15 +19,15 @@ import NewScreen2 from './Screens/NewScreen2';
 import NewScreen3 from './Screens/NewScreen3';
 import NewScreen4 from './Screens/NewScreen4';
 import NewScreen5 from './Screens/NewScreen5';
-import xyz from './Screens/xyz';
+// import xyz from './Screens/xyz';
 
-import FinancialReporting from './Screens/FinancialReporting';
-import GrowthProgram from './Screens/GrowthProgram';
-import Budgeting from './Screens/Budgeting';
-import Modeling from './Screens/Modeling';
-import WorkingCapital from './Screens/WorkingCapital';
-import DecisionMaking from './Screens/DecisionMaking';
-import Credit from './Screens/Credit';
+// import FinancialReporting from './Screens/FinancialReporting';
+// import GrowthProgram from './Screens/GrowthProgram';
+// import Budgeting from './Screens/Budgeting';
+// import Modeling from './Screens/Modeling';
+// import WorkingCapital from './Screens/WorkingCapital';
+// import DecisionMaking from './Screens/DecisionMaking';
+// import Credit from './Screens/Credit';
 
 import Unlocking from './Screens/Unlocking';
 import Harmony from './Screens/Harmony';
@@ -41,9 +41,9 @@ import Emerging from './Screens/Emerging';
 import Development from './Screens/Development';
 import Executive from './Screens/Executive';
 
-import HRBusiness from './Screens/HRBusiness';
-import HRAnalytics from './Screens/HRAnalytics';
-import YoungHR from './Screens/YoungHR';
+// import HRBusiness from './Screens/HRBusiness';
+// import HRAnalytics from './Screens/HRAnalytics';
+// import YoungHR from './Screens/YoungHR';
 
 
 function App() {
@@ -67,13 +67,13 @@ function App() {
         <Route exact path='/ContactUs' element={<ContactUs />} />
 
 
-        <Route exact path='/international-financial-reporting-standards' element={<FinancialReporting />} />
+        {/* <Route exact path='/international-financial-reporting-standards' element={<FinancialReporting />} />
         <Route exact path='/growth-program-for-accountants' element={<GrowthProgram />} />
         <Route exact path='/budgeting-variance-analysis-modelling' element={<Budgeting />} />
         <Route exact path='/financial-modelling-advanced' element={<Modeling />} />
         <Route exact path='/working-capital-management' element={<WorkingCapital />} />
         <Route exact path='/finance-for-decision-making-for-non-finance' element={<DecisionMaking />} />
-        <Route exact path='/credit-risk-analysis-modelling' element={<Credit />} />
+        <Route exact path='/credit-risk-analysis-modelling' element={<Credit />} /> */}
 
         {/* Women Pillar */}
         <Route exact path='/UnloackingMyProfessionalPresence' element={<Unlocking />} />
@@ -90,7 +90,7 @@ function App() {
         <Route exact path='/DevelopmentCenters' element={<Development />} />
         <Route exact path='/ExecutiveCoaching' element={<Executive />} />
 
-        {/* <Route exact path='/xyz' element={<xyz />} /> */}
+        <Route exact path='/xyz' element={<xyz />} />
 
         <Route exact path='/isb' element={<NewScreen />} />
         <Route exact path='/nworx' element={<NewScreen2 />} />
@@ -99,9 +99,9 @@ function App() {
         <Route exact path='/pdu' element={<NewScreen5 />} />
 
 
-        <Route exact path='/hr-business-partnering-development-program' element={<HRBusiness />} />
+        {/* <Route exact path='/hr-business-partnering-development-program' element={<HRBusiness />} />
         <Route exact path='/hr-analytics-for-data-driven-decision-making' element={<HRAnalytics />} />
-        <Route exact path='/young-hr-professional-excellence-program' element={<YoungHR />} />
+        <Route exact path='/young-hr-professional-excellence-program' element={<YoungHR />} /> */}
 
 
 
