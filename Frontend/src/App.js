@@ -15,12 +15,6 @@ import Fostering from './Screens/Fostering';
 import Coaching from './Screens/Coaching';
 import ContactUs from './Screens/ContactUs';
 import xyz from './Screens/xyz';
-import NameScreen from "./NameScreen";
-import NameScreen2 from "./NameScreen2";
-import NameScreen3 from "./NameScreen3";
-import NameScreen4 from "./NameScreen4";
-import NameScreen5 from "./NameScreen5";
-
 
 // import FinancialReporting from './Screens/FinancialReporting';
 // import GrowthProgram from './Screens/GrowthProgram';
@@ -96,12 +90,6 @@ function App() {
         {/* <Route exact path='/hr-business-partnering-development-program' element={<HRBusiness />} />
         <Route exact path='/hr-analytics-for-data-driven-decision-making' element={<HRAnalytics />} />
         <Route exact path='/young-hr-professional-excellence-program' element={<YoungHR />} /> */}
-       
-        <Route path="/screen1" element={<NameScreen />} />
-        <Route path="/screen2" element={<NameScreen2 />} />
-        <Route path="/screen3" element={<NameScreen3 />} />
-        <Route path="/screen4" element={<NameScreen4 />} />
-        <Route path="/screen5" element={<NameScreen5 />} />
 
 
 
