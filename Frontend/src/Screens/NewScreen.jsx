@@ -180,7 +180,7 @@ const NewScreen = () => {
                     </div>
 
                     {/* Business Owners/ CXOs/ Board Members Exp: 25+ years */}
-                    <h2 className="text-center mt-4">Business Owners/ CXOs/ Board Members (Exp: 25+ years)</h2>
+                    <h3 className="text-center mt-4">Business Owners/ CXOs/ Board Members (Exp: 25+ years)</h3>
                     <InView threshold={0.2} triggerOnce>
                         {({ inView, ref }) => (
                             <div style={{ display: 'flex', flexWrap: 'wrap' }}>
@@ -204,7 +204,7 @@ const NewScreen = () => {
                                         variants={slideInFromLeft}
                                         style={boxStyle}
                                     >
-                                        <h4 className='mission-heading2'>Objectives</h4>
+                                        <h4 className='mission-heading2'>Learning Outcome</h4>
                                         <p className="text-justify">Mentoring senior leaders of the business to nurture leadership with unique, actionable insights.</p>
                                     </motion.div>
                                 </Col>
@@ -213,7 +213,7 @@ const NewScreen = () => {
                     </InView>
 
                     {/* Functional Heads & Heads of Business Exp: 10 - 25 years */}
-                    <h2 className="text-center mt-4">Functional Heads & Heads of Business (Exp: 10 - 25 years)</h2>
+                    <h4 className="text-center mt-4">Functional Heads & Heads of Business (Exp: 10 - 25 years)</h4>
                     <InView threshold={0.2} triggerOnce>
                         {({ inView, ref }) => (
                             <div style={{ display: 'flex', flexWrap: 'wrap' }}>
@@ -225,7 +225,7 @@ const NewScreen = () => {
                                 </Col>
                                 <Col xs={12} md={6} className='mt-3' style={{ display: 'flex' }}>
                                     <motion.div ref={ref} initial="hidden" animate={inView ? "show" : "hidden"} variants={slideInFromLeft} style={boxStyle}>
-                                        <h4 className='mission-heading2'>Objectives</h4>
+                                        <h4 className='mission-heading2'>Learning Outcome</h4>
                                         <p className="text-justify">Helping functional and divisional heads learn how to be a leader as a coach, master mindfulness, and be a changemaker who leads with an entrepreneurial mindset.</p>
                                     </motion.div>
                                 </Col>
@@ -234,7 +234,7 @@ const NewScreen = () => {
                     </InView>
 
                     {/* Mid to Mid Senior Functional Managers Exp: 10 - 15 years */}
-                    <h2 className="text-center mt-4">Mid to Mid Senior Functional Managers (Exp: 10 - 15 years)</h2>
+                    <h4 className="text-center mt-4">Mid to Mid Senior Functional Managers (Exp: 10 - 15 years)</h4>
                     <InView threshold={0.2} triggerOnce>
                         {({ inView, ref }) => (
                             <div style={{ display: 'flex', flexWrap: 'wrap' }}>
@@ -246,7 +246,7 @@ const NewScreen = () => {
                                 </Col>
                                 <Col xs={12} md={6} className='mt-3' style={{ display: 'flex' }}>
                                     <motion.div ref={ref} initial="hidden" animate={inView ? "show" : "hidden"} variants={slideInFromLeft} style={boxStyle}>
-                                        <h4 className='mission-heading2'>Objectives</h4>
+                                        <h4 className='mission-heading2'>Learning Outcome</h4>
                                         <p className="text-justify">Strengthening leadership practices to ensure agility and relevance with an eye on collaborative outcomes.</p>
                                     </motion.div>
                                 </Col>
@@ -255,7 +255,7 @@ const NewScreen = () => {
                     </InView>
 
                     {/* First Time Managers & High Potential Individual Contributors Exp: 5 - 10 years */}
-                    <h2 className="text-center mt-4">First Time Managers & High Potential Individual Contributors (Exp: 5 - 10 years)</h2>
+                    <h4 className="text-center mt-4">First Time Managers & High Potential Individual Contributors (Exp: 5 - 10 years)</h4>
                     <InView threshold={0.2} triggerOnce>
                         {({ inView, ref }) => (
                             <div style={{ display: 'flex', flexWrap: 'wrap' }}>
@@ -267,7 +267,7 @@ const NewScreen = () => {
                                 </Col>
                                 <Col xs={12} md={6} className='mt-3' style={{ display: 'flex' }}>
                                     <motion.div ref={ref} initial="hidden" animate={inView ? "show" : "hidden"} variants={slideInFromLeft} style={boxStyle}>
-                                        <h4 className='mission-heading2'>Objectives</h4>
+                                        <h4 className='mission-heading2'>Learning Outcome</h4>
                                         <p className="text-justify">Fostering a forward-thinking approach by leveraging bold, multilateral solutions that shape team and individual outcomes.</p>
                                     </motion.div>
                                 </Col>
