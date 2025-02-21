@@ -19,7 +19,7 @@ import NewScreen2 from './Screens/NewScreen2';
 import NewScreen3 from './Screens/NewScreen3';
 import NewScreen4 from './Screens/NewScreen4';
 import NewScreen5 from './Screens/NewScreen5';
-// import xyz from './Screens/xyz';
+import xyz from './Screens/xyz';
 
 import FinancialReporting from './Screens/FinancialReporting';
 import GrowthProgram from './Screens/GrowthProgram';
