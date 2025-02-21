@@ -76,7 +76,7 @@ function App() {
         <Route exact path='/finance-for-decision-making-for-non-finance' element={<DecisionMaking />} />
         <Route exact path='/credit-risk-analysis-modelling' element={<Credit />} /> */}
 
-        {/* Women Pillar */}
+        Women Pillar
         <Route exact path='/UnloackingMyProfessionalPresence' element={<Unlocking />} />
         <Route exact path='/HarmonyEmpoweringforbalance' element={<Harmony />} />
 
