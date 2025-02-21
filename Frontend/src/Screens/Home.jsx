@@ -1,5 +1,4 @@
-import React, { useEffect, useRef } from 'react'; 
-import { Link } from 'react-router-dom';
+import React, { useEffect, useRef } from 'react';
 import Navbar from '../Components/Navbar';
 import Carousal from '../Components/Carousal';
 import MissionCard from '../Components/MissionCard';
@@ -54,7 +53,10 @@ const Home = () => {
   }, []);
 
   function MissionSection() {
-    const { ref, inView } = useInView({ triggerOnce: true, threshold: 0 });
+    const { ref, inView } = useInView({
+      triggerOnce: true,
+      threshold: 0,
+    });
 
     return (
       <motion.div
@@ -74,7 +76,10 @@ const Home = () => {
   }
 
   function SliderSection() {
-    const { ref, inView } = useInView({ triggerOnce: true, threshold: 0 });
+    const { ref, inView } = useInView({
+      triggerOnce: true,
+      threshold: 0,
+    });
 
     return (
       <motion.div
@@ -90,16 +95,169 @@ const Home = () => {
     );
   }
 
+  // const RedBarSection = () => {
+  //   const values = [
+  //     { icon1: '/images/iconteam.png', text: 'Unlocking Authentic Leadership' },
+  //     { icon1: '/images/iconskill.png', text: 'Entrepreneurial Excellence - Skills and mindset' },
+  //     { icon1: '/images/Women.png', text: 'Empowering Women Leaders For Success' },
+  //     { icon1: '/images/iconlight.png', text: 'Fostering Functional Expertise' },
+  //     { icon1: '/images/iconcoach.png', text: 'Coaching for Professionals' },
+  //   ];
+
+  //   const angleStep = Math.PI / (values.length - 1);
+  //   const radius = 30;
+  //   const closerRadius = 25;
+
+  //   const scrollToSection = (sectionId) => {
+  //     const section = document.getElementById(sectionId);
+  //     if (section) {
+  //       section.scrollIntoView({ behavior: "smooth" });
+  //     }
+  //   };
+
+  //   return (
+  //     <div className='mission-section2 text-center' style={{ overflow: "hidden", padding: "0px", margin: "0px" }}>
+  //       <div style={{
+  //         textAlign: 'center',
+  //         padding: '50px',
+  //         position: 'relative',
+  //         height: "115vh",
+  //         backgroundImage: 'url(/images/bst.jpg)',
+  //         backgroundSize: 'cover',
+  //         backgroundPosition: 'center',
+  //         backgroundRepeat: 'no-repeat',
+  //         width: '100%',
+  //         margin: 0
+  //       }}>
+  //         <div style={{
+  //           position: 'absolute',
+  //           top: 0,
+  //           left: 0,
+  //           width: '100%',
+  //           height: '100%',
+  //           backgroundColor: 'rgba(102, 3, 3, 0.75)',
+  //           zIndex: 0
+  //         }}></div>
+
+  //         <div style={{
+  //           position: 'relative',
+  //           zIndex: 1,
+  //           backgroundColor: 'rgba(0, 0, 0, 0.3)',
+  //           padding: '20px',
+  //           borderRadius: '10px',
+  //           boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+  //           marginBottom: '40px',
+  //           width: "70%",
+  //           margin: "auto"
+  //         }}>
+  //           <h1 className='' style={{ color: 'white', marginBottom: '20px' }}>Academy Verticals</h1>
+  //           <p style={{ color: "white", fontSize: "1.25rem", textAlign: "center" }}>
+  //             <br />
+  //             Explore our academy verticals tailored to empower growth and excellence in your career journey.
+  //           </p>
+  //         </div>
+
+  //         {values.map((value, index) => {
+  //           const angle = index * angleStep - Math.PI;
+  //           const isCloser = value.text === 'Entrepreneurial Excellence - Skills and mindset' ||
+  //             value.text === 'Empowering Women Leaders For Success' ||
+  //             value.text === 'Fostering Functional Expertise';
+  //           const currentRadius = isCloser ? closerRadius : radius;
+  //           const x = currentRadius * Math.cos(angle);
+  //           const y = currentRadius * Math.sin(angle);
+
+  //           return (
+  //             <div
+  //               key={index}
+  //               style={{
+  //                 position: 'absolute',
+  //                 left: `calc(50% + ${x}vw)`,
+  //                 top: `calc(90% + ${y}vh)`,
+  //                 transform: 'translate(-50%, -78%)',
+  //                 textAlign: 'center',
+  //                 zIndex: 1,
+  //               }}
+  //             >
+  //               <div
+  //                 style={{
+  //                   background: '#ac0900',
+  //                   borderRadius: '50%',
+  //                   width: '8vw',
+  //                   height: '8vw',
+  //                   display: 'flex',
+  //                   alignItems: 'center',
+  //                   justifyContent: 'center',
+  //                   margin: '0 auto',
+  //                   overflow: 'hidden'
+  //                 }}
+  //               >
+  //                 <a> {/* Add your link here */}
+  //                   <img
+  //                     src={value.icon1}
+  //                     style={{
+  //                       width: '60%',
+  //                       height: '60%',
+  //                       objectFit: 'contain'
+  //                     }}
+  //                     alt=""
+  //                   />
+  //                 </a>
+  //               </div>
+  //               <p style={{ color: 'white', maxWidth: '15vw', fontSize: '1rem' }}>{value.text}</p>
+  //             </div>
+  //           );
+  //         })}
+
+  //         <div style={{ position: 'relative', display: 'inline-block', zIndex: 2 }}>
+  //           <div
+  //             style={{
+  //               background: '#ac0900',
+  //               borderRadius: '50%',
+  //               width: '30vw',
+  //               height: '30vw',
+  //               position: 'absolute',
+  //               bottom: '-20%',
+  //               left: '50%',
+  //               transform: 'translateX(-50%)',
+  //               zIndex: 1,
+  //               top: 'calc(100% - -22vw)',
+  //             }}
+  //           >
+  //             <div>
+  //               <h3 onClick={() => { scrollToSection('pillars2') }} style={{ color: "white", display: "flex", alignItems: "center", justifyContent: "center", marginTop: "20%", cursor: "pointer" }}>Explore Now</h3>
+  //             </div>
+  //           </div>
+  //         </div>
+  //       </div>
+  //     </div>
+  //   );
+  // };
+
+  const RedBarSection = () => {
+    const scrollToSection = (sectionId) => {
+      const section = document.getElementById(sectionId);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    };
+    return (
+      <div className='mission-section2 text-center' style={{ width: '100%', overflow: "hidden", padding: "0px", margin: "0px", cursor: 'pointer' }}>
+        {/* <img src="/images/reborn3.png" alt="" style={{ width: '100%' }} onClick={() => scrollToSection('pillars2')} /> */}
+      </div>
+    );
+  };
   const PillarSection = () => {
-    const { ref } = useInView({ triggerOnce: true, threshold: 0 });
+    const { ref, inView } = useInView({
+      triggerOnce: true,
+      threshold: 0,
+    });
 
     return (
       <Container fluid style={{ paddingRight: 0, paddingLeft: 0 }}>
         <Row noGutters>
           <Col>
             <div ref={ref}>
-              <div className='mission-section2 text-center' style={{ width: '100%', overflow: "hidden", padding: "0px", margin: "0px", cursor: 'pointer' }}>
-              </div>
+              <RedBarSection />
             </div>
           </Col>
         </Row>
@@ -108,14 +266,19 @@ const Home = () => {
   };
 
   const PillarSection2 = () => {
-    const { ref } = useInView({ triggerOnce: true, threshold: 0 });
+    const { ref, inView } = useInView({
+      triggerOnce: true,
+      threshold: 0,
+    });
 
     return (
       <Container fluid style={{ width: "100%" }}>
         <Row>
           <Col>
             <div className="mission-heading3-container" ref={ref}>
-              <h2 className="mission-heading3">Our Verticals</h2>
+              <h2 className="mission-heading3">
+                Our Verticals
+              </h2>
             </div>
             <PillarCard data={pillars} />
           </Col>
@@ -125,14 +288,19 @@ const Home = () => {
   };
 
   function PartnersSection() {
-    const { ref, inView } = useInView({ triggerOnce: true, threshold: 0 });
+    const { ref, inView } = useInView({
+      triggerOnce: true,
+      threshold: 0,
+    });
 
-     const partners = [
-      { imgSrc: "/images/nvox2.PNG", text: "Enhance leadership skills to meet business results by leveraging AI technology", link: "/nworx" },
-      { imgSrc: "/images/pdeu.PNG", text: "To build intellectual capital and human resources in the fast-developing and competitive energy industry", link: null }, // WRITE /pdu HERE OK
-      { imgSrc: "/images/isblogo.jpg", text: "Transformational learning journeys designed to equip executives across business areas", link: "/isb" },
-      { imgSrc: "/images/download.png", text: "Transforming Coaching & Mentoring by integrating our cutting-edge platform with organizational needs", link: "/weace" },
-      { imgSrc: "/images/MYSOBlue.png", text: "Specialize in combining bespoke content with our micro-courses to meet the specific needs of your organization and employees.", link: "/myso" },
+    const partners = [
+      // { imgSrc: '/images/nvox2.PNG', text: 'Enhance leadership skills to meet business results by leveraging AI technology',  },
+      // { imgSrc: '/images/pdeu.PNG', text: 'To build intellectual capital and human resources in the fast-developing and competitive energy industry',  },
+      // { imgSrc: '/images/isblogo.jpg', text: 'Transformational learning journeys designed to equip executives across business areas', },
+      // { imgSrc: '/images/download.png', text: 'Transforming Coaching & Mentoring by integrating our cutting edge platform with organizational needs',  },
+      // { imgSrc: '/images/MYSOBlue.png', text: 'Specialize in combining bespoke content with our micro-courses to meet the specific needs of your organization and employees.', },
+
+
     ];
 
     return (
@@ -142,16 +310,17 @@ const Home = () => {
         initial="hidden"
         animate={inView ? "show" : "hidden"}
         className="partners-section py-5 text-center"
+        style={{ padding: '0 15px' }}  // Added padding for responsive design
       >
         <h2 className="mission-heading" style={{ marginBottom: '40px' }}>Our Partners</h2>
         <Container fluid className='py-5 bg-light' style={{ width: "100%" }}>
           <Row className="justify-content-center">
-            {partners.map((partner, index) => (
+            {partners.map((partner, index) => ( 
               <Col key={index} md={4} sm={6} className="mb-4 d-flex justify-content-center">
                 <div className="partner-box text-center" style={{ maxWidth: '450px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                  <Link to={partner.link} style={{ display: 'block' }}>
-                    <img src={partner.imgSrc} alt={partner.text} className="img-fluid mb-3" style={{ width: '90%', height: '100px', objectFit: 'contain' }} />
-                  </Link>
+                  <a href={partner.link} target="_blank" rel="noopener noreferrer" style={{ display: 'block' }}>
+                    <img src={partner.imgSrc} alt={partner.text} className="img-fluid mb-3" style={{ width: '90%', height: '100px', objectFit: 'contain' }} /> {/* Adjust size here */}
+                  </a>
                   <p className="mt-2" style={{ flexGrow: 1 }}>{partner.text}</p>
                 </div>
               </Col>
@@ -163,8 +332,18 @@ const Home = () => {
   }
 
   function FooterSection() {
+    const { ref, inView } = useInView({
+      triggerOnce: true,
+      threshold: 0,
+    });
+
     return (
-      <motion.div variants={reveal("left", 0.2)} initial="hidden" animate="show">
+      <motion.div
+        ref={ref}
+        variants={reveal("left", 0.2)}
+        initial="hidden"
+        animate={inView ? "show" : "hidden"}
+      >
         <Footer />
       </motion.div>
     );
@@ -172,14 +351,47 @@ const Home = () => {
 
   return (
     <>
-      <Navbar />
-      <Carousal />
-      <section id="missions"><MissionSection /></section>
-      <section id="pillars"><PillarSection /></section>
-      <section id="pillars2"><PillarSection2 /></section>
-      <SliderSection />
-      <section id="partners"><PartnersSection /></section>
-      <section id="offices"><FooterSection /></section>
+      <motion.div initial={{ opacity: 0.5 }} animate={{ opacity: 1 }} transition={{ duration: 2 }}>
+        <Navbar />
+      </motion.div>
+
+      <motion.div initial={{ opacity: 0.5 }} animate={{ opacity: 1 }} transition={{ duration: 2 }}>
+        <Carousal />
+      </motion.div>
+
+      <section id="missions">
+        <MissionSection />
+      </section>
+
+      <section id="pillars" style={{ width: '100%', padding: 0, margin: 0 }}>
+        <Container fluid style={{ padding: 0, margin: 0 }}>
+          <Row noGutters>
+            <Col>
+              <PillarSection />
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <section id="pillars2">
+        <Container fluid>
+          <Row>
+            <Col>
+              <PillarSection2 />
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <SliderSection data={academy} />
+
+      <section id="partners">
+        <PartnersSection />
+      </section>
+
+      <section id="offices">
+        <FooterSection />
+      </section>
     </>
   );
 };
