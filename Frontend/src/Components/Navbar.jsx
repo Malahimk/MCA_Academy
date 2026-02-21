@@ -14,8 +14,8 @@ function BasicExample() {
         const section = document.getElementById(sectionId);
         if (section) {
             section.scrollIntoView({ behavior: "smooth" });
-        }
-    };
+        }
+    };
 
     const linkVariants = {
         hidden: { y: 20, opacity: 0 },
@@ -38,11 +38,18 @@ function BasicExample() {
                         <motion.div variants={linkVariants} initial="hidden" animate="show">
                             <RouterLink className="nav-link" to="/">Home</RouterLink>
                         </motion.div>
-                                                {location.pathname === '/' && (
+                        {location.pathname === '/' && (
                             <>
-                            <motion.div variants={linkVariants} initial="hidden" animate="show">
+                                <motion.div variants={linkVariants} initial="hidden" animate="show">
                                     <RouterLink onClick={() => scrollToSection('missions')} className="nav-link" >Mission</RouterLink>
                                 </motion.div>
+
+                                <motion.div variants={linkVariants} initial="hidden" animate="show">
+                                    <a className="nav-link" href="https://mcagulf.com/icaew" target="_blank" rel="noopener noreferrer">
+                                        ICAEW
+                                    </a>
+                                </motion.div>
+
                                 <motion.div variants={linkVariants} initial="hidden" animate="show">
                                     <RouterLink onClick={() => scrollToSection('pillars')} className="nav-link" >Our Offerings</RouterLink>
                                 </motion.div>
@@ -58,10 +65,6 @@ function BasicExample() {
                                         Our Partners
                                     </RouterLink >
                                 </motion.div>
-
-                    
-                                
-
                             </>
                         )}
                         <motion.div variants={linkVariants} initial="hidden" animate="show">
